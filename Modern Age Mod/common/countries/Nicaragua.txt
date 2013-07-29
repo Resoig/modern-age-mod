@@ -1,4 +1,4 @@
-color = { 113  138  183 }
+color = { 104 168 228 }
 graphical_culture = SouthAmericanGC
 
 party = {

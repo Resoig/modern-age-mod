@@ -1,5 +1,5 @@
 #color = { 194  53  60 }
-color = { 170  90  43 }
+color = { 222 26 0 }
 graphical_culture = JapaneseGC
 
 party = {

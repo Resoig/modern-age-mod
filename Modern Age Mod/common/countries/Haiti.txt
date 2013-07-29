@@ -1,4 +1,4 @@
-color = { 139  179  207 }
+color = { 220 50 114 }
 graphical_culture = Generic
 party = {
 	name = "HAI_conservative"

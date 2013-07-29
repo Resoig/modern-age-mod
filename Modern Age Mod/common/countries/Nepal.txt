@@ -1,4 +1,4 @@
-color = { 137  183  124 }
+color = { 188 62 236 }
 graphical_culture = AsianGC
 
 party = {

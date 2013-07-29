@@ -1,4 +1,4 @@
-color = { 150  177  161 }
+color = { 69 109 36 }
 graphical_culture = PrussianGC
 
 

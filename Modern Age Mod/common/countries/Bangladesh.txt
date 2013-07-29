@@ -1,4 +1,4 @@
-color = {34 94 41}
+color = {90 169 37}
 graphical_culture = IndianGC
 
 party = {
