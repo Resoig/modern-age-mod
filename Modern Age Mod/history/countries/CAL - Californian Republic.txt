@@ -1,5 +1,5 @@
 capital = 84 # Sonoma
-primary_culture = yankee
+primary_culture = american
 culture = dixie
 religion = protestant
 government = democracy

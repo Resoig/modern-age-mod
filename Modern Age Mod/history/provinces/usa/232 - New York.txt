@@ -3,7 +3,8 @@ controller = USA
 add_core = USA
 add_core = MAN
 trade_goods = grain
-life_rating = 50railroad = 1fort = 1
+life_rating = 60
+railroad = 1fort = 1
 state_building = {
 	level = 1
 	building = cement_factory

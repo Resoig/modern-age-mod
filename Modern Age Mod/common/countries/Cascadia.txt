@@ -2,7 +2,7 @@ color = { 195  250  250 }
 graphical_culture = Generic
 
 party = {
-	name = "CAN_liberal"
+	name = "CAS_liberal"
 	start_date = 1830.1.1
 	end_date = 2511.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "CAN_conservative"
+	name = "CAS_conservative"
 	start_date = 1830.1.1
 	end_date = 2511.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "CAN_reactionary"
+	name = "CAS_reactionary"
 	start_date = 1820.1.1
 	end_date = 2511.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "CAN_anarcho_liberal"
+	name = "CAS_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2511.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "CAN_socialist"
+	name = "CAS_socialist"
 	start_date = 1800.1.1
 	end_date = 2511.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "CAN_communist"
+	name = "CAS_communist"
 	start_date = 1800.1.1
 	end_date = 2511.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "CAN_fascist"
+	name = "CAS_fascist"
 	start_date = 1800.1.1
 	end_date = 2511.1.1
 
@@ -101,28 +101,30 @@ party = {
 
 unit_names = {
 	dreadnought = {
-		"Beacon Hill" "Cap De La Madeleine" "Cape Breton" Charlottetown Chebogue Dunver Eastview Grou Joliette Jonquiere "Kirkland Lake" Kokanee "La Hulloise" Longueuil Magog Matane Montreal "New Glasgow" "New Waterford" Orkney Outremont "Port Colborne" "Prince Rupert" "St Catherines" "Saint John" Springhill Stettler Stormont Swansea "Thetford Mines" Valleyfield Waskesiu Wentworth
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 	ironclad = {
-		 "John A. Macdonald" "Alexander Mackenzie" "John Abbott" "John Thompson" "Mackenzie Bowell" "Charles Tupper" "Wilfrid Laurier" "Robert Borden" "Arthur Meighen" "W. L. Mackenzie King" "Richard B. Bennett" 
+        Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 	manowar = {
-		Ontario Quebeck "Nova Scotia" "New Brunswick" Manitoba "British Columbia" "Prince Edward Island" Saskatchewan Alberta
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka 
 	}
 	cruiser = {
-		Niobe Aurora Rainbow
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 	frigate = {
-		Ontario Quebeck "Nova Scotia" "New Brunswick" Manitoba "British Columbia" "Price Edward Island" Saskatchewan Alberta
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 	monitor = {
-		"Guy Carleton" "Robert Prescott" "Robert Milnes" "Thomas Dunn" "James H. Craig" "George Prévost" "Gordon Drummond" "John C. Sherbrooke" "Charles Lennox" "Goerge Ramsay" "James Kempt" "Matthew Whitworth-Aylmer" "Archibald Acheson" "John Colborne" "John Labton" "Charles P. Thomson" "Charles Bagot" "Charles Metcalfe" "Charles Cathcart" "James Bruce" "Edmund Walker Head" 
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
-	clipper_transport = {
+	clipper_transport = { 
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 	steam_transport = { 
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 	commerce_raider = {
-	Arleux Armentieres Arras Festubert Givenchy Loos Messines "St Eloi" "St Julien" Thiepval Vimy Ypres            
+		Adams Alturas Anacortes Arlington Ashcroft Auburn Baker "Bitter Root" Boise "Bonners Ferry" Burlington Calapooia Cascade Chelan "Coeur D'Alene" Columbia Corvallis Darrington Everett "Grants Pass" Gravelis Hamilton "Juan de Fuca" Juneau Kalispell Kamiah Kendrick Klamath Kooskia Kootenai "La Grande" Meeker Moscow Nakusp Nampa Nanaimo Okanogan Olympia Pasco Pendleton Portland Potlatch Puget Pullman Puyallup Rainier Redding Roseburg Salem Seattle Sedro Shasta Sitka Snake Snohomish Spokane "St. Helens" Tacoma "The Dalles" Townsend Tulalip Vancouver Victoria "Walla Walla" Whatcom Whistler Willamette Yreka
 	}
 }

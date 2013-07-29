@@ -78,8 +78,21 @@ CAR_absolute_monarchy;Central African Empire;x
 CAR_ADJ;Central African;x
 CAR_constitutional_monarchy;Central African Empire;x
 CAR_parliamentary_constitutional_monarchy;Central African Empire;x
-CAS;Cascadia;x
-CAS_ADJ;Cascadian;x
+CAS;Cascadia;;;;;;;;;;;;x;;;
+CAS_absolute_monarchy;The Kingdom of Cascadia;;;;;;;;;;;;;x
+CAS_prussian_constitutionalism;The Kingdom of Cascadia;;;;;;;;;;;;;x
+CAS_hms_government;Cascadia;;;;;;;;;;;;;x
+CAS_proletarian_dictatorship;Cascadian People's Republic;;;;;;;;;;;;;x
+CAS_ADJ;Cascadian;;;;;;;;;;;;x;;;
+CAS_fascist_dictatorship;The Cascade Empire;;;;;;;;;;;;x;;;
+CAS_fascist_dictatorship_ADJ;Cascadian;;;;;;;;;;;;x;;;
+CAS_reactionary;Patriot Party;;;;;;;;;;;;;x
+CAS_conservative;Democratic Party;;;;;;;;;;;;;x
+CAS_liberal;Republican Party;;;;;;;;;;;;;x
+CAS_anarcho_liberal;Libertarian Party;;;;;;;;;;;;;x
+CAS_socialist;Labour Party;;;;;;;;;;;;;x
+CAS_communist;Communist Party;;;;;;;;;;;;;x
+CAS_fascist;Douglas Fir Party;;;;;;;;;;;;;x
 CAT;Catalonia;x
 CAT_ADJ;Catalonian;x
 CHA;Chad;x

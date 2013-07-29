@@ -1,6 +1,8 @@
 capital = 220
 primary_culture = american
+
 culture = afro_american
+
 culture = native_american_minor
 religion = none
 government = democracy

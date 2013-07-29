@@ -1757,28 +1757,27 @@ american_cultures = {
 	### MAM EDIT ###
 	american = {
 		color = {65 65 129}
-		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph  Robert Jesse James Nathan George Joseph John Patrick Albert
-				Braxton William Ambrose Jubal Richard Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling 
-				Raphael Kirby Pierre Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome 
-				Alfred Cadmus "Fitz Hugh" Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn 
-				Walter Hinchie Samuel Benjamin Henry Allison Horace Felix Jerome Lawrence Alexander Louis
+		first_names = { James John Robert Michael William David Richard Charles Joseph Thomas Christopher
+		Daniel Paul Mark Donald George Kenneth Steven Edward Brian Ronald Anthony Kevin Jason Matthew Gary
+		Timothy Larry Jeffrey Frank Scott Eric Stephen Andrew Raymond Gregory Joshua Jerry Dennis Walter
+		Patrick Peter Harold Douglas Henry Carl Arthur Ryan Roger Joe Jack Albert Jonathan Justin Terry
+		Gerald Keith Samuel Willie Ralph Lawrence Nicholas Roy Benjamin Bruce Brandon Adam Harry Fred Wayne
+		Billy Steve Louis Jeremy Aaron Randy Howard Eugene Russell Bobby Victor Martin Ernest Phillip Todd
+		Jesse Craig Alan Shawn Clarence Sean Philip Chris Johnny Earl Jimmy Antonio Danny Bryan Tony Luis
+		Mike Stanley Leonard Nathan Dale Rodney Curtis Norman Allen Marvin Vincent Glenn Jeffery Travis Jeff
+		Chad Jacob Lee Melvin Alfred Kyle Francis Bradley Herbert Frederick Ray Joel Edwin Don Eddie Rick
+		Troy Randall Barry Alexander Bernard Marcus Theodore Clifford Oscar Jay Jim Tom Calvin Alex Jon Bill
+		Llyod Tommy Leon Derek Warren Darrell Tim Gordon Dean Greg Dustin Dan Lewis Corey Herman Glen Shane
 		}
 				
-		last_names = { Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-				Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-				Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-				Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-				Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-				Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-				Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-				Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-				Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg 
-				Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price 
-				Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer 
-				Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-			}
+		last_names = { Smith Johnson William Jones Brown Davis Miller Wilson Moore Taylor Anderson Thomas
+		Jackson White Harris Martin Thompson Robinson Clark Lewis Lee Walker Hall Allen Young King Wright Hill
+		Scott Green Adams Nelson Carter Mitchell Roberts Turner Phillips Campbell Parker Evans Edwards Collins
+		Stewart Morris Rogers Reed Cook Morgan Bell Murphy Bailey Cooper Richardson Cox Howard Ward Peterson
+		Gray James Watson Brooks Kelly Sanders Price Bennett Wood Barnes Ross Henderson Coleman Jenkins Perry
+		Powell Long Patterson Washington Butler Simmons Foster Bryant Alexander Pierce Russell Griffin Hayes
+		Myers Ford Hamilton Graham Sullivan Wallace Woods Cole West Jordan Owens Fisher Harrison Gibson 
+		}
 	}
 	### MAM END ###
 	union = USA
@@ -1941,16 +1940,23 @@ african_diaspora_cultures = {
 	leader = african
 	is_overseas = no
 	unit = AfricanGC
+	### MAM EDIT ###
 	afro_american = {
 		color = {42 42 42}
-		first_names = { Aaron Alexander Andre Benton Caesar Cathay Charles Colin Ebenezer Edgar
-		Edward Frederick George Henry James Joseph Lewis Lloyd Matin Michael 
-		Milton Osborne Pinckney Powhatan Robert Samuel Stewart Thomas William Wilson }
-	
-		last_names = { Anderson Antoine Augusta Basset Beaty Blake Brooks Brown Cailloux Carney
-		Delany Douglass "Du Bois" Fields Flipper Gardner Griffin Hawkins Holland Jackson
-		King Mink Nell Pinn Ratcliff Remond Smith Stukes Tubman Veale }
-		radicalism = 4
+		first_names = { Anthony Brandon Caleb Cameron Christian Christopher Daniel David Elijah Ethan 
+		Gabriel Isaiah James Jayden Jeremiah Jordan Joseph Joshua Josiah Justin Kevin Malik Matthew Michael
+		Nathan Tyler William Xavier Zion 
+		}
+
+		last_names = { Smith Johnson William Jones Brown Davis Miller Wilson Moore Taylor Anderson Thomas
+		Jackson White Harris Martin Thompson Robinson Clark Lewis Lee Walker Hall Allen Young King Wright Hill
+		Scott Green Adams Nelson Carter Mitchell Roberts Turner Phillips Campbell Parker Evans Edwards Collins
+		Stewart Morris Rogers Reed Cook Morgan Bell Murphy Bailey Cooper Richardson Cox Howard Ward Peterson
+		Gray James Watson Brooks Kelly Sanders Price Bennett Wood Barnes Ross Henderson Coleman Jenkins Perry
+		Powell Long Patterson Washington Butler Simmons Foster Bryant Alexander Pierce Russell Griffin Hayes
+		Myers Ford Hamilton Graham Sullivan Wallace Woods Cole West Jordan Owens Fisher Harrison Gibson 
+		}
+		radicalism = 1
 	}
 	afro_caribbean = {
 		color = {32 57 32}
