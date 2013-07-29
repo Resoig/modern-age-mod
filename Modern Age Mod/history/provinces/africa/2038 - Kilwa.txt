@@ -1,0 +1,7 @@
+owner = TAN
+controller = TAN
+add_core = TAN
+add_core = EAF
+trade_goods = grain
+life_rating = 35
+naval_base = 1

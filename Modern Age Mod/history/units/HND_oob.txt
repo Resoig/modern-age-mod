@@ -1,0 +1,33 @@
+# Nations in Sphere
+
+BHU = { level = 5 }
+MLD = { level = 5 }
+
+# Friendly Nations
+
+MRT = { level = 4 }
+BNG = { level = 4 }
+SEY = { level = 4 }
+SRL = { level = 4 }
+
+# Cordial Nations
+
+IVC = { level = 3 }
+KEN = { level = 3 }
+LIB = { level = 3 }
+SOK = { level = 3 }
+STP = { level = 3 }
+SAF = { level = 3 }
+AFG = { level = 3 }
+ATJ = { level = 3 }
+KAZ = { level = 3 }
+MGL = { level = 3 }
+BUR = { level = 3 }
+NEP = { level = 3 }
+TAI = { level = 3 }
+TAJ = { level = 3 }
+SIA = { level = 3 }
+KHI = { level = 3 }
+DAI = { level = 3 }
+FIJ = { level = 3 }
+BUK = { level = 3 }

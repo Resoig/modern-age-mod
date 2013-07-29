@@ -1,0 +1,58 @@
+capital = 300
+primary_culture = british
+culture = anglo_canadian
+culture = irish
+religion = protestant
+government = hms_government
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.85
+civilized = yes
+
+#GreaterPowers = prestige
+prestige = 30
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = secret_ballots
+
+# Social Reforms
+wage_reform = acceptable_minimum_wage
+work_hours = twelve_hours
+safety_regulations = acceptable_safety
+health_care = acceptable_health_care
+unemployment_subsidies = acceptable_subsidies
+pensions = acceptable_pensions
+school_reforms = good_schools
+
+# Technologies
+
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+ruling_party = ENG_liberal
+last_election = 1835.2.6
+upper_house = {
+	fascist = 0
+	liberal = 12
+	conservative = 83
+	reactionary = 5
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+schools = naval_tech_school
+
+oob = "ENG_oob.txt"

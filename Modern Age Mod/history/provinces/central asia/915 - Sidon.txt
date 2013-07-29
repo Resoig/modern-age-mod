@@ -1,0 +1,5 @@
+owner = LEB
+controller = LEB
+add_core = LEB
+trade_goods = fruit
+life_rating = 35

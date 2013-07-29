@@ -1,0 +1,5 @@
+owner = GRD
+controller = GRD
+add_core = GRD
+trade_goods = cotton
+life_rating = 35

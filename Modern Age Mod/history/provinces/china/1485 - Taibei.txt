@@ -1,0 +1,6 @@
+owner = TAI
+controller = TAI
+add_core = TAI
+trade_goods = tea
+life_rating = 35
+naval_base = 1

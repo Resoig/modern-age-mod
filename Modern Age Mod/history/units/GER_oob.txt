@@ -1,0 +1,54 @@
+# Nations in Sphere
+
+# Friendly Nations
+
+ADO = { level = 4 }
+AUS = { level = 4 }
+BEL = { level = 4 }
+BOS = { level = 4 }
+BUL = { level = 4 }
+CRO = { level = 4 }
+CYP = { level = 4 }
+BOH = { level = 4 }
+DEN = { level = 4 }
+EST = { level = 4 }
+FIN = { level = 4 }
+GRE = { level = 4 }
+HUN = { level = 4 }
+IRE = { level = 4 }
+ITA = { level = 4 }
+LAT = { level = 4 }
+LIT = { level = 4 }
+LUX = { level = 4 }
+MAL = { level = 4 }
+MOA = { level = 4 }
+NET = { level = 4 }
+POL = { level = 4 }
+POR = { level = 4 }
+ROM = { level = 4 }
+SLO = { level = 4 }
+SLV = { level = 4 }
+SPA = { level = 4 }
+SWE = { level = 4 }
+SWI = { level = 4 }
+
+# Cordial Nations
+
+CPV = { level = 3 }
+NAM = { level = 3 }
+AFG = { level = 3 }
+BNG = { level = 3 }
+ALB = { level = 3 }
+ARM = { level = 3 }
+AZB = { level = 3 }
+GEO = { level = 3 }
+ICL = { level = 3 }
+KOS = { level = 3 }
+MAC = { level = 3 }
+MOL = { level = 3 }
+MON = { level = 3 }
+NOR = { level = 3 }
+SMR = { level = 3 }
+SER = { level = 3 }
+TUR = { level = 3 }
+UKR = { level = 3 }

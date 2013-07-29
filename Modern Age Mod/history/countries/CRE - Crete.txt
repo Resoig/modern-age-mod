@@ -1,0 +1,39 @@
+capital = 848
+primary_culture = greek
+religion = orthodox
+government = democracy
+plurality = 0.05
+nationalvalue = nv_order
+literacy = 0.5
+civilized = yes
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = proportional_representation
+political_parties = secret_ballots
+
+# Social Reforms
+wage_reform = acceptable_minimum_wage
+work_hours = twelve_hours
+safety_regulations = acceptable_safety
+health_care = acceptable_health_care
+unemployment_subsidies = acceptable_subsidies
+pensions = acceptable_pensions
+school_reforms = good_schools
+
+ruling_party = CRE_conservative
+upper_house = {
+	fascist = 0
+	liberal = 35
+	conservative = 55
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}

@@ -1,0 +1,56 @@
+# Morocco-Western Sahar
+vassal = {
+	first = MOR
+	second = WSA
+	start_date = 1814.10.1
+	end_date = 2500.10.30
+}
+
+# Denmark-Faroe Islands
+vassal = {
+	first = DEN
+	second = FAR
+	start_date = 1815.1.1
+	end_date = 2500.10.30
+}
+
+# Denmark-Greenland
+vassal = {
+	first = DEN
+	second = GRN
+	start_date = 1815.1.1
+	end_date = 2500.10.30
+}
+
+# Armenia-NAK
+vassal = {
+	first = ARM
+	second = NAK
+	start_date = 1815.1.1
+	end_date = 2500.10.30
+}
+
+
+# Turkey-Northern Cyprus
+vassal = {
+	first = TUR
+	second = NCY
+	start_date = 1773.1.1
+	end_date = 2500.10.30
+}
+
+# Tanzania-Zanzibar
+vassal = {
+	first = TAN
+	second = ZAN
+	start_date = 1815.1.1
+	end_date = 2500.10.30
+}
+
+# Macau - China
+substate = {
+	first = CHI
+	second = MCA
+	start_date = 2012.1.1
+	end_date = 3000.1.1
+	}

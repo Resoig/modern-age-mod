@@ -1,0 +1,7 @@
+owner = NKO
+controller = NKO
+add_core = KOR
+add_core = SKO
+add_core = NKO
+trade_goods = iron
+life_rating = 35

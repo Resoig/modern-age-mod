@@ -1,0 +1,11 @@
+owner = USA
+controller = USA
+add_core = USA
+trade_goods = fish
+life_rating = 30
+
+state_building = {
+	level = 2
+	building = canned_food_factory
+	upgrade = yes
+}

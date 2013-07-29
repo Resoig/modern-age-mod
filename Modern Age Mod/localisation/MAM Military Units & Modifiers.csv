@@ -1,0 +1,22 @@
+;;x
+DIGIN_FROM_TECH;Military Fortification Cap;x
+MILITARY_DIG_IN_CAP;Military Fortification Cap;x
+digin;Military Fortification;x
+DIG_IN_TOOLTIP_1;Current Military Fortification level: $LEV$/$MAX$.;x
+DIG_IN_TOOLTIP_2;It takes �Y$DAYS$�! days to increase Military Fortification level by �G+$VAL$�!.;x
+UW_DUGIN;This unit is making temporary fortifications in the province, and has been for �Y$CURR$�W days. The maximum Military Fortification possible for our country is �Y$CAP$�W days.;x
+COMBAT_DIGIN;Penalty on attacker due to defender having fortified the land.;x
+artillery;Artillery;x
+cavalry;Armored Vehicle;x
+cuirassier;Tank;x
+dragoon;Jet;x
+engineer;Sniper;x
+guard;Special Forces;x
+hussar;Helicopter;x
+infantry;Infantry;x
+irregular;Militia;x
+plane;Drone;x
+tank;Mech;x
+LEDGER_ARMY_INFANTRY;Infantry;x
+LEDGER_ARMY_CAVALRY;Tanks;x
+LEDGER_ARMY_ARTILLERY;Aircraft;x

@@ -1,0 +1,5 @@
+owner = TAT
+controller = TAT
+add_core = TAT
+trade_goods = cotton
+life_rating = 35

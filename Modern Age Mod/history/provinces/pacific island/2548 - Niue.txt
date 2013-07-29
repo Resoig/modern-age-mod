@@ -1,0 +1,5 @@
+owner = NIU
+controller = NIU
+add_core = NIU
+trade_goods = fish
+life_rating = 15

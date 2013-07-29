@@ -1,0 +1,78 @@
+political_decisions = {
+### MAM REMOVED ###
+	#cavours_diplomacy = {}
+	#award_order_of_st_francis = {}
+	#statuto_albertino = {}
+	#build_vittoriano = {}
+	#the_case_of_edgardo_mortara = {}
+	#the_first_vatican_council = {}
+	#law_of_guarantees = {}
+### MAM: This should be reworked, yet to be decided how
+#	italia_irredenta = {
+#		potential = {
+#			tag = ITA
+#			NOT = {
+#				has_country_flag = italia_ulterior
+#			}
+#		}
+#		
+#		allow = {
+#			OR = {
+#				invention = national_fraternity
+#				is_greater_power = yes
+#			}
+#		}
+#		
+#		effect = {
+#			set_country_flag = italia_ulterior
+#			729 = {
+#				add_core = ITA
+#			}
+#			730 = {
+#				add_core = ITA
+#			}
+#			731 = {
+#				add_core = ITA
+#			}
+#			732 = {
+#				add_core = ITA
+#			}
+#			733 = {
+#				add_core = ITA
+#			}
+#			734 = {
+#				add_core = ITA
+#			}
+#			735 = {
+#				add_core = ITA
+#			}
+#			736 = {
+#				add_core = ITA
+#			}
+#			737 = {
+#				add_core = ITA
+#			}
+#			769 = {
+#				add_core = ITA
+#			}
+#			770 = {
+#				add_core = ITA
+#			}
+#			778 = {
+#				add_core = ITA
+#			}
+#			780 = {
+#				add_core = ITA
+#			}
+#			781 = {
+#				add_core = ITA
+#			}
+#			782 = {
+#				add_core = ITA
+#			}
+#			2582 = {
+#				add_core = ITA
+#			}
+#		}
+	}
+}

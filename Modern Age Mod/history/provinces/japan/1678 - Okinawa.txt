@@ -1,0 +1,5 @@
+owner = JAP
+controller = JAP
+add_core = RYK
+trade_goods = grain
+life_rating = 35

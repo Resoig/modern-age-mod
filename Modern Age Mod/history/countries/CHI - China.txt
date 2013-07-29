@@ -1,0 +1,66 @@
+capital = 1612
+primary_culture = beifaren
+culture = nanfaren
+culture = zhuang
+culture = manchu
+culture = min
+culture = hakka
+culture = yue
+culture = miao
+religion = mahayana
+government = proletarian_dictatorship
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.34
+civilized = no
+
+
+#GreaterPowers = prestige
+prestige = 90
+
+# Political reforms
+land_reform = yes_land_reform
+admin_reform = yes_admin_reform
+
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = low_safety
+health_care = low_health_care
+unemployment_subsidies = no_subsidies
+pensions = low_pensions
+school_reforms = acceptable_schools
+pollution = no_controls
+child_labor = child_labor_restricted
+patent_law = no_patents
+penal_system = capital_punishment
+arts_endowment = no_endowment
+
+ruling_party = CHI_communist
+upper_house = {
+	fascist = 0
+	liberal = 0
+	conservative = 0
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 100
+}
+
+# Technologies
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+water_wheel_power = 1
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "CHI_oob.txt"

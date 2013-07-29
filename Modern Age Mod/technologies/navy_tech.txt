@@ -1,0 +1,2242 @@
+#naval_bases_tech
+#naval_doctrine
+submarine_base = {
+#post_nelsonian_thought = {
+	area = naval_bases_tech
+	year = 1992
+	cost = 3600
+	unciv_military = yes
+	activate_building = naval_base
+	colonial_points = 100
+
+
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.5
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+anti_ship_missiles = {
+#battleship_column_doctrine = {
+	area = naval_bases_tech
+	year = 1992
+	cost = 7200
+	unciv_military = yes
+	max_naval_base = 1
+	#colonial_points = 200 #no free lunch!
+
+
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.5
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+overseas_naval_base = {
+#raider_group_doctrine = {
+	area = naval_bases_tech
+	year = 2000
+	cost = 10800
+	unciv_military = yes
+	max_naval_base = 1
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.5
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+naval_warfare_center = {
+#blue_and_brown_water_schools = {
+	area = naval_bases_tech
+	year = 2020
+	cost = 14400
+	unciv_military = yes
+	max_naval_base = 1
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.5
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+anti_ship_ballistic_missile = {
+#high_sea_battle_fleet = {
+	area = naval_bases_tech
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+	max_naval_base = 1
+
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.5
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+mobile_offshore_base = {
+#modern_naval_doctrine = {
+	area = naval_bases_tech
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+	max_naval_base = 1
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.5
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 9
+			is_greater_power = yes
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 12
+			rank = 16
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 40
+		}
+	}
+}
+
+#ship_construction
+destroyers = {
+#clipper_design = {
+	area = ship_construction
+	year = 1992
+	cost = 3600
+	unciv_military = yes
+	activate_building = clipper_shipyard 
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.9
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# Valuable for major producers of fish (+50% output invention)
+		modifier = {
+			factor = 1.03
+			big_producer = fish
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+			submarine_base = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+			submarine_base = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+nuclear_submarine = {
+#steamers = {
+	area = ship_construction
+	year = 1992
+	cost = 7200
+	unciv_military = yes
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.9
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# Valuable for major producers of fish (+50% output invention)
+		modifier = {
+			factor = 1.03
+			big_producer = fish
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+			anti_ship_missiles = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+			anti_ship_missiles = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+guided_missile_destroyers = {
+#iron_steamers = {
+	area = ship_construction
+	year = 2000
+	cost = 10800
+	unciv_military = yes
+	navy_base = { maximum_speed = 2 }
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.9
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+			overseas_naval_base = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+			overseas_naval_base = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+ballistic_missile_submarine = {
+#steel_steamers = {
+	area = ship_construction
+	year = 2020
+	cost = 14400
+	unciv_military = yes
+	navy_base = { maximum_speed = 2 } 
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.9
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+			naval_warfare_center = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+			naval_warfare_center = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+ddx_destroyers = {
+#steam_turbine_ships = {
+	area = ship_construction
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+	navy_base = { maximum_speed = 2 } 
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.9
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.5
+			total_num_of_ports = 9
+			is_greater_power = yes
+			anti_ship_ballistic_missile = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 12
+			rank = 16
+			anti_ship_ballistic_missile = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.15
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.2
+			total_num_of_ports = 40
+		}
+	}
+}
+magnetohydrodynamic_propulsors = {
+#oil_driven_ships = {
+	area = ship_construction
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+	navy_base = { maximum_speed = 2 } 
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.9
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.05
+			tech_school = naval_tech_school
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.25
+			total_num_of_ports = 9
+			is_greater_power = yes
+			mobile_offshore_base = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 12
+			rank = 16
+			mobile_offshore_base = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.05
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.05
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.05
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.05
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.1
+			total_num_of_ports = 40
+		}
+	}
+}
+
+#carrier_construction
+#naval_engineering
+aircraft_carrier = {
+#naval_design_bureaus = {
+	area = carrier_construction
+	year = 1992
+	cost = 3600
+	navy_base = { build_time = -10 }
+	unciv_military = yes
+	activate_building = steamer_shipyard
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# We're late with this!
+		modifier = {
+			factor = 1.25
+			year = 2000
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+nuclear_reactors = {
+#fire_control_systems = {
+	area = carrier_construction
+	year = 1992
+	cost = 7200
+	unciv_military = yes
+	navy_base = { build_time = -10 }
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# We're late with this!
+		modifier = {
+			factor = 1.25
+			year = 2010
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+supercarriers = {
+#weapon_platforms = {
+	area = carrier_construction
+	year = 2000
+	cost = 10800
+	unciv_military = yes
+	navy_base = { build_time = -10 }
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# We're late with this!
+		modifier = {
+			factor = 1.25
+			year = 2020
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+electromagnetic_aircraft_launch = {
+#main_armament = {
+	area = carrier_construction
+	year = 2020
+	cost = 14400
+	unciv_military = yes
+	navy_base = { build_time = -10 }
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# We're late with this!
+		modifier = {
+			factor = 1.25
+			year = 2030
+		}
+		# Our cruisers need torpedoes!
+		modifier = {
+			factor = 1.25
+			invention = protected_cruisers
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+higher_density_reactor = {
+#advanced_naval_design = {
+	area = carrier_construction
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+	navy_base = { build_time = -10 }
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Our Dreadnoughts need better guns
+		modifier = {
+			factor = 1.5
+			invention = dreadnoughts
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+nextgen_supercarriers = {
+#modern_naval_design = {
+	area = carrier_construction
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+	navy_base = { build_time = -10 }
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+
+#ship_systems
+#naval_science
+cruise_missile = {
+#alphabetic_flag_signaling = {
+	area = ship_systems
+	year = 1992
+	cost = 3600
+	unciv_military = yes
+	supply_range = 0.10
+	
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { total_amount_of_ships = 1 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { rank = 18 }
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+		}
+	}
+}
+aegis_combat = {
+#naval_plans = {
+	area = ship_systems
+	year = 1992
+	cost = 7200
+	unciv_military = yes
+	supply_range = 0.10
+	
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { rank = 18 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { total_amount_of_ships = 1 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+		}
+	}
+}
+aegis_defense = {
+#naval_statistics = {
+	area = ship_systems
+	year = 2000
+	cost = 11800
+	unciv_military = yes
+	supply_range = 0.10
+		ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { rank = 18 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { total_amount_of_ships = 1 }
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+		}
+	}
+}
+aegis_combined = {
+#naval_logistics = {
+	area = ship_systems
+	year = 2020
+	cost = 14400
+	unciv_military = yes
+	supply_range = 0.10
+		ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { rank = 18 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { total_amount_of_ships = 1 }
+		}
+		modifier = {
+			factor = 1.02
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+		}
+	}
+}
+ship_defense_system = {
+#naval_directionism = {
+	area = ship_systems
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+	supply_range = 0.10
+		ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { rank = 18 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { total_amount_of_ships = 1 }
+		}
+		modifier = {
+			factor = 1.02
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+		}
+	}
+}
+plasma_gasification = {
+#naval_integration = {
+	area = ship_systems
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+	supply_range = 0.10
+		ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { rank = 18 }
+		}
+		modifier = {
+			factor = 1.02
+			total_num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 30
+		}
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 0
+			NOT = { total_amount_of_ships = 1 }
+		}
+		modifier = {
+			factor = 1.05
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 15
+		}
+		modifier = {
+			factor = 1.02
+			total_amount_of_ships = 50
+		}	
+	}
+}
+
+#Naval Doctrine
+#naval_leadership
+green_blue_water_navies = {
+#the_command_principle = {
+	area = naval_doctrine
+	year = 1992
+	cost = 3600
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 10
+	}
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+carrier_battle_group = {
+#naval_professionalism = {
+	area = naval_doctrine
+	year = 1992
+	cost = 7200
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+salvo_combat_model = {
+#naval_decision_making = {
+	area = naval_doctrine
+	year = 2000
+	cost = 10800
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+supercarrier_battle_group = {
+#naval_risk_management = {
+	area = naval_doctrine
+	year = 2020
+	cost = 14400
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+seabasing = {
+#naval_nco_training = {
+	area = naval_doctrine
+	year = 2050
+	cost = 18000
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}
+modern_battlespace = {
+#modern_naval_training = {
+	area = naval_doctrine
+	year = 2070
+	cost = 21600
+	unciv_military = yes
+	navy_base = {
+		default_organisation = 5
+	}
+	ai_chance = {
+		factor = 1
+		# Land-locked countries don't research this
+		modifier = {
+			factor = 0
+			NOT = { total_num_of_ports = 1 }
+		}
+		# Low LIT countries should pay less attention here (0.2 = Craftsmen ceiling)
+		modifier = {
+			factor = 0.8
+			NOT = { literacy = 0.2 }
+		}
+		# Valuable to naval tech school countries (UK)
+		modifier = {
+			factor = 1.15
+			tech_school = naval_tech_school
+		}
+		# More popular when at war
+		modifier = {
+			factor = 1.05
+			war = yes
+		}
+		# GPs with 9 or more coastal provinces (Prussia+)
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 9
+			is_greater_power = yes
+			destroyers = 1
+		}
+		# GPs and SPs with more than 12 ports
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 12
+			rank = 16
+			destroyers = 1
+		}
+		# Bigger navy, more weight
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 20
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 40
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 60
+		}
+		modifier = {
+			factor = 1.1
+			total_amount_of_ships = 80
+		}
+		# Big country with more than 1/4 coastal provinces
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 10
+			not = { num_of_cities = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 20
+			not = { num_of_cities = 80 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 30
+			not = { num_of_cities = 120 }
+		}
+		modifier = {
+			factor = 1.05
+			total_num_of_ports = 40
+		}
+	}
+}

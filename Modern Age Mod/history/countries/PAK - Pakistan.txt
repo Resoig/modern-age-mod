@@ -1,0 +1,60 @@
+capital = 1230
+primary_culture = panjabi
+culture = sindi
+culture = kashmiri
+culture = baluchi
+culture = pashtun
+religion = sunni
+government = democracy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.17
+civilized = yes
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = party_appointed
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = all_trade_unions
+voting_system = proportional_representation
+political_parties = harassment
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = low_schools
+
+ruling_party = PAN_reactionary
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 75
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+water_wheel_power = 1
+post_napoleonic_thought = 1
+
+# Inventions
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "PAN_oob.txt"

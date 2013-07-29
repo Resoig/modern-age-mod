@@ -1,0 +1,5 @@
+owner = ROC
+controller = ROC
+add_core = ROC
+trade_goods = iron
+life_rating = 15

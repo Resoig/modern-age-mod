@@ -1,0 +1,56 @@
+capital = 549
+primary_culture = north_german
+culture = south_german
+religion = protestant
+government = democracy
+plurality = 0.15
+nationalvalue = nv_order
+literacy = 0.56
+civilized = yes
+
+
+#GreaterPowers = prestige
+prestige = 60
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = proportional_representation
+political_parties = secret_ballots
+
+# Social Reforms
+wage_reform = acceptable_minimum_wage
+work_hours = twelve_hours
+safety_regulations = acceptable_safety
+health_care = acceptable_health_care
+unemployment_subsidies = acceptable_subsidies
+pensions = acceptable_pensions
+school_reforms = good_schools
+
+ruling_party = GER_conservative
+upper_house = {
+	fascist = 0
+	liberal = 55
+	conservative = 25
+	reactionary = 5
+	anarcho_liberal = 5
+	socialist = 5
+	communist = 5
+}
+
+# Technologies
+
+
+#Inventions
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+schools = army_tech_school
+
+oob = "GER_oob.txt"

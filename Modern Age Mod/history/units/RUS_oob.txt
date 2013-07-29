@@ -1,0 +1,44 @@
+# Nations in Sphere
+ABK = { level = 5 }
+BLR = { level = 5 }
+SOT = { level = 5 }
+###Transnistria
+
+# Friendly Nations
+PER = { level = 4 }
+SYR = { level = 4 }
+KAZ = { level = 4 }
+KOK = { level = 4 }
+MGL = { level = 4 }
+TAJ = { level = 4 }
+BUK = { level = 4 }
+ARM = { level = 4 }
+###Transnistria
+AZB = { level = 4 }
+SER = { level = 4 }
+UKR = { level = 4 }
+CUB = { level = 4 }
+
+# Cordial Nations
+ANG = { level = 3 }
+ETH = { level = 3 }
+ZIM = { level = 3 }
+EGY = { level = 3 }
+TRI = { level = 3 }
+MOR = { level = 3 }
+SUD = { level = 3 }
+BUR = { level = 3 }
+PAK = { level = 3 }
+SKO = { level = 3 }
+KHI = { level = 3 }
+DAI = { level = 3 }
+BOS = { level = 3 }
+BUL = { level = 3 }
+CYP = { level = 3 }
+FIN = { level = 3 }
+GRE = { level = 3 }
+ITA = { level = 3 }
+MON = { level = 3 }
+MEX = { level = 3 }
+NIC = { level = 3 }
+VNZ = { level = 3 }

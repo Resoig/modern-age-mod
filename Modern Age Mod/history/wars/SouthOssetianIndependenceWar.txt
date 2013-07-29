@@ -1,0 +1,23 @@
+name = "South Ossetian Independence War"
+
+1992.1.1 = {
+	add_attacker = GEO
+	add_defender = SOT
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = GEO
+		receiver = GEO
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = SOT
+		receiver = SOT
+	}
+
+}

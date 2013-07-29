@@ -1,0 +1,6 @@
+owner = ZAM
+controller = ZAM
+add_core = ZAM
+add_cote = RHO
+trade_goods = grain
+life_rating = 35

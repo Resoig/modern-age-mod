@@ -1,0 +1,33 @@
+RussianGC
+BritishGC
+FrenchGC
+UsGC
+#MR
+PrussianGC
+ItalianGC
+#MR
+JapaneseGC
+ChineseGC
+#MR
+#MR
+#MR
+EuropeanGC
+MiddleEasternGC
+SouthAmericanGC
+#MR
+IndianGC
+AsianGC
+AfricanGC
+#MR
+Generic
+
+###MAM:
+#GCs out:
+#AustriaHungaryGC
+#SwedishGC
+#ConfederateGC
+#OttomanGC
+#MoroccoGC # it was just OttomanGC with a funny hat
+#RomanGC	# Files for it didn't even exist
+#ZuluGC
+#SpanishGC

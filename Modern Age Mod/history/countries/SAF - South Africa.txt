@@ -1,0 +1,44 @@
+capital = 2087
+primary_culture = boer
+culture = british
+culture = xhosa
+culture = zulu
+culture = sotho
+culture = khoisan
+religion = protestant
+government = democracy
+plurality = 0.6
+nationalvalue = nv_liberty
+literacy = 0.12
+civilized = yes
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = party_appointed
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = all_trade_unions
+voting_system = proportional_representation
+political_parties = harassment
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = low_schools
+
+ruling_party = SAF_conservative_2
+upper_house = {
+	fascist = 0
+	liberal = 14
+	conservative = 77
+	reactionary = 9
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}

@@ -1,0 +1,6 @@
+owner = SOT
+controller = SOT
+add_core = SOT
+add_core = GEO
+trade_goods = wool
+life_rating = 35

@@ -1,0 +1,179 @@
+#MAM Techs;;x
+naval_tech_school;Naval Power;x
+industrial_tech_school;Corporate Welfare;x
+culture_tech_school;Politico-Media complex;x
+commerce_tech_school;Consumer Economics;x
+prussian_tech_school;Wirtschaftswunder;x
+usa_tech_school;Iron Triangle;x
+israel_tech_school;Permanent War Economy;x
+south_korea_tech_school;Chaebol Conglomerate;x
+japan_tech_school;Keiretsu;x
+north_korea_tech_school;Juche;x
+discoveries;Scientific Discovery;x
+big_science;Big Science;x
+international_science;International Science;x
+contemporary_science;Contemporary Science;x
+distributed_computations;Distributed Computations;x
+virtual_science;Virtual Science;x
+quantum_science;Quantum Computations;x
+research_and_development;Research and Development;x
+early_networks;Early Networks;x
+strd_internet;The Internet;x
+high_speed_uni_network;Very High-Speed University Networks;x
+uni_internet;Internet2;x
+distributed_computing_research;Distributed Computing for Research;x
+research_supercomputers;ZettaFLOPS Supercomputers for Research;x
+education_policies;Education Policies;x
+preschool_education;Popularization of Preschool Education;x
+global_enrollment;Universal School Enrollment;x
+informatization_education;Informatization of Education;x
+learning_management_systems;Learning Management Systems;x
+blended_learning;Blended Learning;x
+virtual_learning;Virtual Learning Environment;x
+geopolitics;Geopolitics;x
+detente;Détente;x
+globalization;Globalization;x
+war_on_terror;Global War on Terrorism;x
+age_of_protests;The Age of Protests;x
+political_polarization;Political Polarization;x
+new_world_order;The New World Order;x
+society_trends;Societal Trends;x
+70s_subcultures;70s Subcultures;x
+cultural_imperialism;Cultural Imperialism;x
+digital_revolution;Digital Revolution;x
+social_networking;Social Networking;x
+hacktivism;Hacktivism;x
+next_generation_subcultures;Next Generation Subcultures;x
+international_financial_institutions;International Financial Institutions;x
+multilateral_development_bank;Multilateral Development Banks;x
+online_banking;Online Banking;x
+credit_rating_institutions;Credit Rating Institutions;x
+financial_stability_board;Financial Stability Board;x
+neofinancial_system;Neo-Financial System;x
+dollar_standard;Dollar Standard;x
+bretton_system;Bretton Woods System;x
+washington_consensus;Washington Consensus;x
+new_bretton;Bretton Woods II;x
+beijing_consensus;Beijing Consensus;x
+new_global;Neo-Global Economy;x
+new_keynesian;New Keynesian Economics;x
+new_growth_theory;Endogenous Growth Theory;x
+new_synthesis;New Neoclassical Synthesis;x
+austrian_school;Austrian School of Economics;x
+digitaleconomics_theory;Cyber-Economics Theory;x
+neoeconomics_theory;Neo-Economics Theory;x
+trust_busting;Contemporary Antitrust Legislation;x
+neoliberalism;Modern Neoliberalism;x
+economic_globalization;Economic Globalization;x
+commodities_and_credit;Commodities and Speculation Economies;x
+neoeconomic_responsibility;New Economic Responsibility Policy;x
+neoglobal_market;Neo-Global Market;x
+tech_organization;Division of Labour;x
+late_fordism;Modern Fordism;x
+toyotism;Toyota Production System;x
+vanguard_method;The Vanguard Method;x
+lean_manufacturing;Lean Manufacturing Method;x
+post_fordism;Post-Fordism;x
+neodigital;Neo-Digital Division of Labour;x
+ballistic_and_recon;Ballistics and Recon;x
+military_gps_system;Military GPS System;x
+missile_launch_facility;Missile Launch Facility;x
+ground_midcourse_defense;Ground-Based Midcourse Defense;x
+gps_iii_system;GPS III System;x
+thaa_defense;Terminal High Altitude Area Defense;x
+ascent_phase_defense;Ascent Phase Defense;x
+infa_tech;Infantry Technology;x
+modern_rifles;Modern Infantry Arsenal;x
+precision_long_ranged_weapons;Precision Long-Ranged Weapons;x
+spec_ops;Special Operations;x
+lightweight_small_arms;Lightweight Small Arms Technologies;x
+adaptive_camouflage;Adaptive Camouflage Uniforms;x
+future_force_warrior;Future Force Warrior;x
+heavy_armament;Tank Technology;x
+second_generation_tanks;Second Generation Tanks;x
+third_generation_tanks;Third Generation Tanks;x
+thirdplus_generation_tanks;3.5th Generation Tanks;x
+mounted_combat_system;Mounted Combat System;x
+electric_gun_technology;Electric Gun Technology;x
+fourth_generation_tanks;Fourth Generation Tanks;x
+jet_tech;Aircraft Technology;x
+close_air_support;Close Air Support;x
+stealth_aircraft;Stealth Aircraft;x
+fourth_generation_jets;Fourth Generation Jet Fighters;x
+fifth_generation_jets;Fifth Generation Jet Fighters;x
+sixth_generation_jets;Sixth Generation Jet Fighters;x
+next_gen_bombers;Next Generation Bombers;x
+arms_race_doctrine;Arms Race Doctrine;x
+fourth_generation_warfare;Fourth Generation Warfare;x
+network_centric_warfare;Network-Centric Warfare;x
+full_spectrum_dominance;Full Spectrum Dominance Doctrine;x
+fifth_generation_warfare;Fifth Generation Warfare;x
+asymmetric_warfare;Asymmetric Warfare;x
+naval_bases_tech;Naval Bases and Ballistics;x
+submarine_base;Underground Submarine Base;x
+anti_ship_missiles;Anti-Ship Missiles;x
+overseas_naval_base;Modern Overseas Naval Base;x
+naval_warfare_center;Naval Surface Warfare Center;x
+mobile_offshore_base;Mobile Offshore Base;x
+anti_ship_ballistic_missile;Anti-Ship Ballistic Missile;x
+ship_construction;Naval Architecture;x
+destroyers;Destroyers;x
+nuclear_submarine;Nuclear Submarines;x
+guided_missile_destroyers;Guided Missile Destroyers;x
+ballistic_missile_submarine;Modern Ballistic Missile Submarines;x
+ddx_destroyers;DDX Destroyers;x
+magnetohydrodynamic_propulsors;Magnetohydrodynamic Propulsors;x
+carrier_construction;Aircraft Carrier Construction;x
+aircraft_carrier;Aircraft Carriers;x
+nuclear_reactors;Pressurized-Water Nuclear Reactors;x
+supercarriers;Supercarriers;x
+electromagnetic_aircraft_launch;Electromagnetic Aircraft Launch Systems;x
+higher_density_reactor;High Energy Density Nuclear Reactor;x
+nextgen_supercarriers;Next Generation Supercarriers;x
+ship_systems;Ship Systems;x
+cruise_missile;Cruise Missiles;x
+aegis_combat;Aegis Combat System;x
+aegis_defense;Aegis Ballistic Missile Defense System;x
+aegis_combined;Aegis Open Architecture;x
+ship_defense_system;Ship's Self Defense System Mk3;x
+plasma_gasification;Plasma Arc Waste Destruction System;x
+green_blue_water_navies;Green and Blue Water Navies Doctrine;x
+carrier_battle_group;Carrier Battle Group Strategy;x
+salvo_combat_model;Salvo Combat Model;x
+supercarrier_battle_group;Supercarrier Battle Group Strategy;x
+seabasing;Sea Basing;x
+modern_battlespace;Modern Battlespace;x
+#nuclear_power;#Nuclear Fission Power;x
+green_energy;Green Energy;x
+wind_power;Wind Power;x
+microgeneration;Microgeneration;x
+marine_power;Marine Power;x
+micropower;Micropower;x
+fusion_power;Nuclear Fusion Power;x
+computing;Computing;x
+microcomputer;Microcomputers;x
+personal_computer;Personal Computers;x
+supercomputers;Supercomputer Architecture;x
+petascale_computing;Petascale Supercomputer Architecture;x
+exascale_computing;Exascale Supercomputer Architecture;x
+quantum_computer;Quantum Computers;x
+commodities;Commodities;x
+green_revolution;Green Revolution;x
+heavy_mining;Heavy Mining Machinery;x
+contemporary_agriculture;Contemporary Agriculture;x
+env_sustainability;Environmental Sustainability;x
+deep_sea_mining;Deep Sea Mining;x
+asteroid_mining;Asteroid Mining;x
+mobile_network;Mobile Network;x
+early_backbone;Early Internet Backbone;x
+modern_backbone;Fiber-Optics Internet Backbone;x
+dynamic_infrastructure;Dynamic Infrastructure;x
+universal_wireless_access;Universal Wireless Internet Access;x
+future_data_centers;Advanced Data Centers;x
+medicine_tech;Medicine;x
+molecular_biology;Molecular Biology;x
+clinical_pharmacology;Clinical Pharmacology;x
+genomics;Genomics;x
+pharmacogenomics;Pharmacogenomics;x
+evidence_based_medicine;Evidence-based Medicine;x
+biotechnology;Advanced Biotechnology;x

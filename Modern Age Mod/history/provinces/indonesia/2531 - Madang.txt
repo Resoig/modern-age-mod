@@ -1,0 +1,5 @@
+owner = PPN
+controller = PPN
+add_core = PPN
+trade_goods = grain
+life_rating = 15

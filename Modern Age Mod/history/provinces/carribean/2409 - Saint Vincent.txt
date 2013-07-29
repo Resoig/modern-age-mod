@@ -1,0 +1,5 @@
+owner = SVG
+controller = SVG
+add_core = SVG
+trade_goods = cotton
+life_rating = 35

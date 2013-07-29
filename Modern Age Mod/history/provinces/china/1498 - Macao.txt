@@ -1,0 +1,6 @@
+owner = MCA
+controller = MCA
+add_core = MCA
+add_core = CHI
+trade_goods = tea
+life_rating = 35

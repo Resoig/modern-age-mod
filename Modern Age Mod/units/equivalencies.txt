@@ -1,0 +1,28 @@
+###################
+## Equivalencies ##
+###################
+
+##Troops:
+#Artillery	= 	Artillery
+#Cavalry	= 	Armored Vehicle
+#Cuirassier	=	Tank
+#Dragoon	=	Jet
+#Engineer	=	Sniper
+#Guard		= 	Special Forces
+#Hussar		=	Helicopter
+#Irregular	=	Militia
+#Infantry	=	Infantry
+#Plane		=	Drone
+#Tank		=	Battle Mech
+
+##Ships:
+#Battleship			=	
+#Clipper Transport	=
+#Commerce Raider	=
+#Cruiser			=
+#Dreadnought		=
+#Frigate			=
+#Ironclad			=
+#Man o War			=
+#Monitor			=
+#Steam Transport	=

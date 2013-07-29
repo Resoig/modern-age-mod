@@ -1,0 +1,94 @@
+# Nations in Sphere
+
+COM = { level = 5 }
+IVC = { level = 5 }
+DJI = { level = 5 }
+GAB = { level = 5 }
+
+# Friendly Nations
+
+BEN = { level = 4 }
+BUF = { level = 4 }
+CMR = { level = 4 }
+CAR = { level = 4 }
+CHA = { level = 4 }
+CNG = { level = 4 }
+MAU = { level = 4 }
+NIG = { level = 4 }
+SEN = { level = 4 }
+TUN = { level = 4 }
+AUS = { level = 4 }
+BEL = { level = 4 }
+BOS = { level = 4 }
+BUL = { level = 4 }
+CRO = { level = 4 }
+CYP = { level = 4 }
+BOH = { level = 4 }
+DEN = { level = 4 }
+EST = { level = 4 }
+FIN = { level = 4 }
+GRE = { level = 4 }
+HUN = { level = 4 }
+IRE = { level = 4 }
+ITA = { level = 4 }
+LAT = { level = 4 }
+LIT = { level = 4 }
+LUX = { level = 4 }
+MAL = { level = 4 }
+NET = { level = 4 }
+POL = { level = 4 }
+POR = { level = 4 }
+SLV = { level = 4 }
+SLO = { level = 4 }
+SPA = { level = 4 }
+SWE = { level = 4 }
+SWI = { level = 4 }
+TUV = { level = 4 }
+
+# Cordial Nations
+
+ANG = { level = 3 }
+CPV = { level = 3 }
+ROC = { level = 3 }
+EQG = { level = 3 }
+GUB = { level = 3 }
+MAD = { level = 3 }
+MLI = { level = 3 }
+MRT = { level = 3 }
+TOG = { level = 3 }
+ALD = { level = 3 }
+BHR = { level = 3 }
+ISR = { level = 3 }
+JOR = { level = 3 }
+KUW = { level = 3 }
+LEB = { level = 3 }
+TRI = { level = 3 }
+MOR = { level = 3 }
+PAL = { level = 3 }
+QAT = { level = 3 }
+SAA = { level = 3 }
+ABU = { level = 3 }
+AFG = { level = 3 }
+ALB = { level = 3 }
+ARM = { level = 3 }
+AZB = { level = 3 }
+GEO = { level = 3 }
+ICL = { level = 3 }
+KOS = { level = 3 }
+LIE = { level = 3 }
+MAC = { level = 3 }
+MOL = { level = 3 }
+MON = { level = 3 }
+NOR = { level = 3 }
+CAN = { level = 3 }
+DMC = { level = 3 }
+HAI = { level = 3 }
+ROM = { level = 3 }
+SMR = { level = 3 }
+SER = { level = 3 }
+TUR = { level = 3 }
+UKR = { level = 3 }
+#Vatican City
+TAT = { level = 3 }
+PPN = { level = 3 }
+VAN = { level = 3 }

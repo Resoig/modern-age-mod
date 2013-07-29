@@ -1,0 +1,56 @@
+#Nations in Sphere
+
+NKO = { level = 5 }
+MGL = { level = 5 }
+
+#Friendly Nations
+
+ANG = { level = 4 }
+MAU = { level = 4 }
+MOZ = { level = 4 }
+NAM = { level = 4 }
+ZIM = { level = 4 }
+SUD = { level = 4 }
+CAM = { level = 4 }
+KOK = { level = 4 }
+BUR = { level = 4 }
+PAK = { level = 4 }
+SIA = { level = 4 }
+
+#Cordial Nations
+
+CMR = { level = 3 }
+CPV = { level = 3 }
+COM = { level = 3 }
+ROC = { level = 3 }
+DJI = { level = 3 }
+ETH = { level = 3 }
+GHA = { level = 3 }
+KEN = { level = 3 }
+MLW = { level = 3 }
+SOK = { level = 3 }
+SOM = { level = 3 }
+SAF = { level = 3 }
+TAN = { level = 3 }
+TOG = { level = 3 }
+ZAM = { level = 3 }
+PER = { level = 3 }
+SYR = { level = 3 }
+ATJ = { level = 3 }
+KAZ = { level = 3 }
+LUA = { level = 3 }
+JOH = { level = 3 }
+NEP = { level = 3 }
+PHI = { level = 3 }
+SNG = { level = 3 }
+SKO = { level = 3 }
+SRL = { level = 3 }
+TAI = { level = 3 }
+TAJ = { level = 3 }
+DAI = { level = 3 }
+CUB = { level = 3 }
+VNZ = { level = 3 }
+MIC = { level = 3 }
+PPN = { level = 3 }
+SAM = { level = 3 }
+VAN = { level = 3 }

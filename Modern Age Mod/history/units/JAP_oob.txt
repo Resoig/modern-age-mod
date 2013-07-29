@@ -1,0 +1,21 @@
+# Nations in Sphere
+
+# Friendly Nations
+
+# Cordial Nations
+
+CAM = { level = 3 }
+ATJ = { level = 3 }
+KOK = { level = 3 }
+PHI = { level = 3 }
+SNG = { level = 3 }
+SKO = { level = 3 }
+TAI = { level = 3 }
+SIA = { level = 3 }
+DAI = { level = 3 }
+AST = { level = 3 }
+FIJ = { level = 3 }
+KIR = { level = 3 }
+MAR = { level = 3 }
+MIC = { level = 3 }
+TUV = { level = 3 }

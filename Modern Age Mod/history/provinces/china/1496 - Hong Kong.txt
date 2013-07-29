@@ -1,0 +1,6 @@
+owner = HKG
+controller = HKG
+add_core = HKG
+add_core = CHI
+trade_goods = tea
+life_rating = 35

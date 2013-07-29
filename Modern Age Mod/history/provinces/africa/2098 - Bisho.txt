@@ -1,0 +1,6 @@
+owner = CIS
+controller = CIS
+add_core = CIS
+add_core = SAF
+trade_goods = wool
+life_rating = 35

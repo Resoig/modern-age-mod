@@ -1,0 +1,167 @@
+#political reforms;;x
+immigration_policy;Immigration;x
+immigration_policy_l;Immigration;x
+nobody_gets_out;Not Allowed;x
+nobody_gets_out_l;Not Allowed;x
+nobody_gets_out_desc;No one is allowed to leave (or enter);x
+culture_immigration;Cultural Immigration;x
+culture_immigration_l;Cultural Immigration;x
+culture_immigration_desc;The government only encourages immigrants from accepted and primary cultures.;x
+wealth_immigration;Wealth Immigration;x
+wealth_immigration_l;Wealth Immigration;x
+wealth_immigration_desc;Immigration is pay-your-way, allowing only wealthy individuals into the country.;x
+quota_immigration;Quota Immigration;x
+quota_immigration_l;Quota Immigration;x
+quota_immigration_desc;The government sets quotas and accepts only educated immigrants.;x
+open_immigration;Open Immigration;x
+open_immigration_l;Open Immigration;x
+open_immigration_desc;Our country accepts all comers with open arms.;x
+conscription;Conscription;x
+conscription_l;Conscription;x
+mandatory_service;Mandatory Service;x
+mandatory_service_l;Mandatory Service;x
+mandatory_service_desc;All adult males must serve in the military.;x
+four_year_draft;Four Year Draft;x
+four_year_draft_l;Four Year Draft;x
+four_year_draft_desc;Conscripts are drafted for four years.;x
+two_year_draft;Two Year Draft;x
+two_year_draft_l;Two Year Draft;x
+two_year_draft_desc;Conscripts are drafted for two years.;x
+one_year_draft;One Year Draft;x
+one_year_draft_l;One Year Draft;x
+one_year_draft_desc;Conscripts are drafted for one year.;x
+no_draft;No Draft;x
+no_draft_l;No Draft;x
+no_draft_desc;No conscription.;x
+minorities;Minorities;x
+minorities_l;Minorities;x
+oppression;Oppression;x
+oppression_l;Oppression;x
+oppression_desc;Racism is the norm and minorities are constrained by blatant legal requirements, relegating them to second-class status.;x
+jim_crow;Jim Crow;x
+jim_crow_l;Jim Crow;x
+jim_crow_desc;Jim Crow laws, laws that target and act against minorities without explicitly mentioning them, are instituted in place of overtly racist policies.;x
+de_facto;De Facto;x
+de_facto_l;De Facto;x
+de_facto_desc;"Legislation targeting minorities is theoretically illegal, but de facto racism and segregation exist in many facets of society under so-called ""separate but equal"" doctrine.";x
+protected;Protected;x
+protected_l;Protected;x
+protected_desc;Minorities are specially protected groups under the law.;x
+#social reforms;;x
+education;Education;x
+education_l;Education;x
+elite;Elite Only;x
+elite_l;Elite Only;x
+elite_desc;Only the wealthy elite of the country have access to a proper education.;x
+church;Religious Education;x
+church_l;Religious Education;x
+church_desc;Education is possible for those outside of the wealthy elite, but only via religious institutions.;x
+public;Public Education;x
+public_l;Public Education;x
+public_desc;Everyone has an equal opportunity at education.;x
+pollution;Pollution;x
+pollution_l;Pollution;x
+no_controls;No Controls;x
+no_controls_l;No Controls;x
+no_controls_desc;There are no pollution controls whatsoever.;x
+trinket_envir;Few Standards;x
+trinket_envir_l;Few Standards;x
+trinket_envir_desc;Toxic waste can't be dumped straight into food.;x
+low_envir;Some Standards;x
+low_envir_l;Some Standards;x
+low_envir_desc;Air emissions and toxic waste dumping are regulated.;x
+acceptable_envir;Good Standards;x
+acceptable_envir_l;Good Standards;x
+acceptable_envir_desc;Most pollutants that could cause a threat to public health are heavily regulated.;x
+good_envir;Strict Standards;x
+good_envir_l;Strict Standards;x
+good_envir_desc;The dumping or emissions of all dangerous substances are strictly controlled, and violation of pollution laws carries hefty penalties.;x
+child_labor;Child Labor;x
+child_labor_l;Child Labor;x
+child_labor_illegal;Illegal;x
+child_labor_illegal_l;Child Labor Illegal;x
+child_labor_illegal_desc;Child Labor is viewed as immoral and is illegal.;x
+child_labor_restricted;Restricted;x
+child_labor_restricted_l;Child Labor Restricted;x
+child_labor_restricted_desc;Children cannot work in certain dangerous professions.;x
+child_labor_legal;Legal;x
+child_labor_legal_l;Child Labor Legal;x
+child_labor_legal_desc;No child labor regulation exists.;x
+penal_system;Penal System;x
+penal_system_l;Penal System;x
+capital_punishment;Capital Punishment;x
+capital_punishment_l;Capital Punishment;x
+capital_punishment_desc;Offenders may face the death penalty;x
+incarceration;Incarceration;x
+incarceration_l;Incarceration;x
+incarceration_desc;Those who commit crimes are incarcerated as punishment;x
+rehabilitation;Rehabilitation;x
+rehabilitation_l;Rehabilitation;x
+rehabilitation_desc;The government tries to make it so infractors don't commit crimes again, by providing them with help;x
+unemployment_subsidies;Subsidies;x
+unemployment_subsidies_l;Subsidies;x
+safety_regulations;Worker Safety;x
+safety_regulations_l;Worker Safety;x
+proportional_representation;Proportional;x
+proportional_representation_l;Proportional;x
+good_safety;Excellent Regulations;x
+good_safety_l;Excellent Regulations;x
+##UNCIV Reforms;;x
+#Economical;;x
+admin_reform;Administrative;x
+admin_reform_l;Administrative;x
+pre_indust;Industrialization;x
+pre_indust_l;Industrialization;x
+industrial_construction;Construction;x
+industrial_construction_l;Construction;x
+monetary_reform;Monetary Reform;x
+monetary_reform_l;Monetary Reform;x
+no_monetary_reform;No Monetary Reform;x
+no_monetary_reform_l;No Monetary Reform;x
+no_monetary_reform_desc;This country hasn't done a monetary reform yet;x
+dollar_standard_reform;Dollar Standard;x
+dollar_standard_reform;Dollar Standard;x
+dollar_standard_reform_desc;The dollar is used as standard currency for international trade;x
+sanitary_reform;Sanitary Reform;x
+sanitary_reform_l;Sanitary Reform;x
+no_sanitation;No Sanitation;x
+no_sanitation_l;No Sanitation;x
+no_sanitation_desc;There is no sanitation infrastructure in place;x
+partially_sanitized;Partially Sanitized;x
+partially_sanitized_l;Partially Sanitized;x
+partially_sanitized_desc;A too basic or not broad enough sanitary system is in place;x
+sanitized;Sanitized;x
+sanitized_l;Sanitized;x
+sanitized_desc;The sanitary conditions are ideal;x
+education_policy;Education Policy;x
+education_policy_l;Education Policy;x
+basic_education;Basic Education;x
+basic_education_l;Basic Education;x
+basic_education_desc;Mandory education includes elementary and middle school, but not more than that;x
+secondary_education;Secondary Education;x
+secondary_education_l;Secondary Education;x
+secondary_education_desc;Mandatory education is up to the end of high school;x
+postsecondary_education;Postsecondary Education;x
+postsecondary_education_l;Postsecondary Education;x
+postsecondary_education_desc;The state offers public higher education;x
+diplomatic_reform;Diplomacy;x
+diplomatic_reform;Diplomacy;x
+isolationism_reform;Isolationism;x
+isolationism_reform_l;Isolationism;x
+isolationism_reform_desc;Do not diplomatically interact with foreign nations;x
+interaction_reform;Interaction;x
+interaction_reform_l;Interaction;x
+interaction_reform_desc;Mantain relations with foreign nations;x
+globalization_reform;Globalization;x
+globalization_reform_l;Globalization;x
+globalization_reform_desc;Participate actively in a globalized world;x
+sustainable_development_reform;Sustainability;x
+sustainable_development_reform;Sustainability;x
+no_sustainable_development_reform;No reform;x
+no_sustainable_development_reform;No reform;x
+no_sustainable_development_reform;This country doesn't embrace the ideal of sustainable development;x
+yes_sustainable_development_reform;Sustainable Development;x
+yes_sustainable_development_reform;Sustainable Development;x
+yes_sustainable_development_reform;This country embraces the ideal of development aligned with preservation of nature;x
+foreign_navies;Foreign Navy;x
+foreign_navies_l;Foreign Navy;x

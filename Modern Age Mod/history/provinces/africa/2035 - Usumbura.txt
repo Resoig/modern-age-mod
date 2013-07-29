@@ -1,0 +1,6 @@
+owner = BRN
+controller = BRN
+add_core = BRN
+add_core = EAF
+trade_goods = cotton
+life_rating = 15

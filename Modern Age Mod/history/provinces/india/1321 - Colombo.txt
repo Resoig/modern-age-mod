@@ -1,0 +1,5 @@
+owner = SRL
+controller = SRL
+add_core = SRL
+trade_goods = fruit
+life_rating = 35

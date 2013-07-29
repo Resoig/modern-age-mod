@@ -1,0 +1,904 @@
+ #financial_institutions
+international_financial_institutions = {
+#private_banks = {
+	area = financial_institutions
+	year = 1992
+	cost = 3600
+
+	activate_building = cement_factory 
+	tax_eff = 3
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+
+			rank = 16
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+		}
+	}
+}
+multilateral_development_bank = {
+#stock_exchange = {
+	area = financial_institutions
+	year = 1992
+	cost = 7200
+
+	tax_eff = 5
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.6
+		}
+	}
+}
+online_banking = {
+#business_banks = {
+	area = financial_institutions
+	year = 2000
+	cost = 10800
+
+	tax_eff = 5
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.6
+		}
+	}
+}
+credit_rating_institutions = {
+#investment_banks = {
+	area = financial_institutions
+	year = 2020
+	cost = 14400
+
+	tax_eff = 5
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 3.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.15
+			literacy = 0.6
+		}		
+	}
+}
+financial_stability_board = {
+#bank_inspection_board = {
+	area = financial_institutions
+	year = 2050
+	cost = 18000
+
+	tax_eff = 5
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+neofinancial_system = {
+#mutual_funds = {
+	area = financial_institutions
+	year = 2070
+	cost = 21600
+
+	tax_eff = 5
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+
+
+#monetary_system
+dollar_standard = {
+#no_standard = {
+	area = monetary_system
+	year = 1992
+	cost = 3600
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+bretton_system = {
+#ad_hoc_money_bill_printing = {
+	area = monetary_system
+	year = 1992
+	cost = 7200
+	
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.25 #1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}  
+washington_consensus = {
+#private_bank_money_bill_printing = {
+	area = monetary_system
+	year = 2000
+	cost = 10800
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.25 #1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+new_bretton = {
+#central_bank_money_bill_printing = {
+	area = monetary_system
+	year = 2020
+	cost = 14400
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+beijing_consensus = {
+#modern_central_bank_system = {
+	area = monetary_system
+	year = 2050
+	cost = 18000
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+new_global = {
+#market_determined_exchange_rates = {
+	area = monetary_system
+	year = 2070
+	cost = 21600
+
+
+	administrative_efficiency = 0.05
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.1
+			rank = 16
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+
+
+#economic_thought_and_critique
+new_keynesian = {
+#early_classical_theory_and_critique = {
+	area = economic_thought_and_critique
+	year = 1992
+	cost = 3600
+	
+	activate_building = lumber_mill
+	factory_input = -0.01
+	ai_chance = {
+		factor = 2
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+	}
+}
+new_growth_theory = {
+#late_classical_theory = {
+	area = economic_thought_and_critique
+	year = 1992
+	cost = 7200
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			industrial_score = 20 #10
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100 #50
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+new_synthesis = {
+#collectivist_theory = {
+	area = economic_thought_and_critique
+	year = 2000
+	cost = 10800
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			industrial_score = 150 #100
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 200 #150
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+austrian_school = {
+#the_historical_theory = {
+	area = economic_thought_and_critique
+	year = 2020
+	cost = 14400
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.1
+			industrial_score = 250 #200
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 300 #250
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+digitaleconomics_theory = {
+#neoclassical_theory = {
+	area = economic_thought_and_critique
+	year = 2050
+	cost = 18000
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 1
+		modifier = {
+			factor = 1.1
+			industrial_score = 500 #400
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 600 #500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+neoeconomics_theory = {
+#keynesian_economics = {
+	area = economic_thought_and_critique
+	year = 2070
+	cost = 21600
+
+	factory_input = -0.01
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500 #1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 2000 #1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+	}
+}
+
+
+#market_functionality
+trust_busting = {
+#freedom_of_trade = {
+	area = market_functionality
+	year = 1992
+	cost = 3600
+
+
+	activate_building = luxury_clothes_factory  
+
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	
+	ai_chance = {
+		factor = 11
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.1 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.2
+		}		
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}
+}
+neoliberalism = {
+#market_structure = {
+	area = market_functionality
+	year = 1992
+	cost = 7200
+
+	influence = 0.1
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	
+	ai_chance = {
+		factor = 3.5
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 10
+		}
+		modifier = {
+			factor = 2
+			year = 1850
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 50
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+
+}
+economic_globalization = {
+#business_regulations = {
+	area = market_functionality
+	year = 2000
+	cost = 10800
+
+	influence = 0.2
+	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+commodities_and_credit = {
+#market_regulations = {
+	area = market_functionality
+	year = 2020
+	cost = 14400
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 200
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 250
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+neoeconomic_responsibility = {
+#economic_responsibility = {
+	area = market_functionality
+	year = 2050
+	cost = 18000
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+neoglobal_market = {
+#government_interventionism = {
+	area = market_functionality
+	year = 2070
+	cost = 21600
+
+	influence = 0.2
+	ai_chance = {
+		factor = 1.01
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+	
+}
+
+
+#tech_organization
+late_fordism = {
+#guild_based_production = {
+	area = tech_organization
+	year = 1992
+	cost = 3600
+	activate_building = canned_food_factory 
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 10
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 50
+		}
+		modifier = {
+			factor = 1.25
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.5
+			literacy = 0.6
+		}		
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+toyotism = {
+#organized_factories = {
+	area = tech_organization
+	year = 1992
+	cost = 7200
+
+	factory_output = 0.01
+		ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.25
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.25
+			literacy = 0.6
+		}		
+		modifier = {
+			factor = 1.2
+			industrial_score = 100
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 150
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+vanguard_method = {
+#scientific_management = {
+	area = tech_organization
+	year = 2000
+	cost = 10800
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.3 
+		}
+		modifier = {
+			factor = 1.05
+			literacy = 0.6
+		}		
+		modifier = {
+			factor = 1.2
+			industrial_score = 200
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 250
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+lean_manufacturing = {
+#time_saving_measures = {
+	area = tech_organization
+	year = 2020
+	cost = 14400
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 300
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 400
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+post_fordism = {
+#management_strategy = {
+	area = tech_organization
+	year = 2050
+	cost = 18000
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 500
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 750
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+neodigital = {
+#organizational_development = {
+	area = tech_organization
+	year = 2070
+	cost = 21600
+
+	factory_output = 0.01
+	ai_chance = {
+		factor = 1.05
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1000
+		}
+		modifier = {
+			factor = 1.2
+			industrial_score = 1500
+		}
+		modifier = {
+			factor = 1.02
+			tech_school = commerce_tech_school
+		}
+	}	
+}
+
+

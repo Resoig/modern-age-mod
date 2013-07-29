@@ -1,0 +1,56 @@
+capital = 2172
+primary_culture = mexican
+culture = nahua
+culture = mayan
+culture = native_american_minor
+religion = catholic
+government = democracy
+plurality = 0.0
+nationalvalue = nv_liberty
+literacy = 0.31
+civilized = yes
+prestige = 5
+
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+school_reforms = low_schools
+
+ruling_party = MEX_conservative
+last_election = 1835.1.28
+upper_house = {
+	fascist = 0
+	liberal = 25
+	conservative = 63
+	reactionary = 12
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+military_gps_system = 0
+
+# Inventions
+hydrazine_propulsion = no
+
+#Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "MEX_oob.txt"

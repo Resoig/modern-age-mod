@@ -1,0 +1,5 @@
+owner = MAU
+controller = MAU
+add_core = MAU
+trade_goods = fruit
+life_rating = 15

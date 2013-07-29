@@ -1,0 +1,53 @@
+### MAM REMOVED ###
+# 44100
+# 44101
+# 44102
+# 44103
+# 44104
+# 44105
+# 44106
+# 44107
+# 44108
+# 44109
+# 44110
+# 44111
+# 44112
+# 44113
+# 44114
+# 44115
+# 44116 #Second Great Awakening
+# 44117
+# 44118
+# 44119
+# 44120 # Moral Crusaders
+# 44121
+
+#Panama Canal
+country_event = {
+	id = 44200
+	title = "EVTNAME44200"
+	desc= "EVTDESC44200"
+	#picture
+	
+	trigger = {
+		tag = USA
+		exists = PNM
+		NOT = {war_with = PNM}
+		owns = 1723
+		year = 1999
+	}
+	
+	mean_time_to_happen = {
+		months = 11
+		days = 30
+	}
+	
+	option = {
+		name = "EVTOPTA44200"
+		1723 = { secede_province = PNM }
+	}
+	option = {
+		name = "EVTOPTB44200"
+		prestige = -30
+	}
+}

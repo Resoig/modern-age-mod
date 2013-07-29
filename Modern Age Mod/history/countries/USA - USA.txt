@@ -1,0 +1,84 @@
+capital = 220
+primary_culture = american
+culture = afro_american
+culture = native_american_minor
+religion = none
+government = democracy
+plurality = 0.0
+nationalvalue = nv_liberty
+literacy = 0.99
+civilized = yes
+
+
+#GreaterPowers = prestige
+prestige = 200
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = secret_ballots
+immigration_reform = quota_immigration
+conscription = no_draft
+minorities = de_facto
+debt_law = bankruptcy
+trial_law = trial_by_jury
+
+
+# Social Reforms
+wage_reform = acceptable_minimum_wage
+work_hours = twelve_hours
+safety_regulations = acceptable_safety
+unemployment_subsidies = low_subsidies
+pensions = acceptable_pensions
+health_care = low_health_care
+school_reforms = acceptable_schools
+pollution = no_controls
+child_labor = child_labor_illegal
+patent_law = special_patents
+penal_system = rehabilitation
+arts_endowment = massive_endowment
+
+
+ruling_party = USA_conservative
+last_election = 1828.12.3
+upper_house = {
+	fascist = 0
+	liberal = 30
+	conservative = 70
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+military_gps_system = 0
+missile_launch_facility = 0
+modern_rifles = 1
+anti_tank_missiles = 0
+second_generation_tanks = 1
+third_generation_tanks = 0
+fourth_generation_jets = 1
+stealth_aircraft = 0
+arms_race_doctrine = 1
+fourth_generation_warfare = 0
+
+#Inventions
+#corvettes = yes
+hydrazine_propulsion = no
+
+
+
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 1
+
+schools = usa_tech_school
+
+oob = "USA_oob.txt"

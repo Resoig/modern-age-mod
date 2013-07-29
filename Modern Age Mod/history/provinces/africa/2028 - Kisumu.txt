@@ -1,0 +1,6 @@
+owner = KEN
+controller = KEN
+add_core = KEN
+add_core = EAF
+trade_goods = tea
+life_rating = 35

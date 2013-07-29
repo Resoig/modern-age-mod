@@ -1,0 +1,6 @@
+owner = JOH
+controller = JOH
+add_core = JOH
+add_core = BRU
+trade_goods = coffee
+life_rating = 30

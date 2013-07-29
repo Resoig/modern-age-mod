@@ -1,0 +1,64 @@
+;;x
+aristocrats;Property Magnates;x
+aristocrat;Property Magnate;x
+promote_aristocrats;Encourage Property Magnates;x
+appointed_desc;Property Magnates or Capitalists have been assigned seats in the Upper House by the leader of the country.;x
+landed_voting_desc;Only Property Magnates and Capitalists may vote.;x
+artisans;Small Businesses Owners;x
+promote_artisans;Encourage Small Businesses Owners;x
+ARTISAN_INPUT_TECH;Small Businesses Owners input efficiency tech;x
+ARTISAN_OUTPUT_TECH;Small Businesses Owners output efficiency tech;x
+ARTISAN_THROUGHPUT_TECH;Small Businesses Owners throughput efficiency tech;x
+clergymen;Academics;x
+promote_clergymen;Encourage Academics;x
+clerk;Engineer;x
+clerks;Engineers;x
+promote_clerks;Encourage Engineers;x
+craftsmen;Factory Workers;x
+promote_craftsmen;Encourage Factory Workers;x
+american;American;x
+native_american_minor;Native American;x
+budhist;Budhist;x
+none;Non Religious;x
+TECH_MONTHLY_RESEARCHPOINTS_TOOLTIP;$LITERACY$ Higher Education diplomas 即$POPTYPE$劬 gives us 即$VALUE$ research points劬;x
+average_literacy;High Education;x
+POPV_SORT_BY_LIT;High Education;x
+MODIFIER_LITERACY_CON_IMPACT;Higher Education Impact on Con;x
+POP_CON_LITERACY;High Education;x
+PV_POP_LITERACY;High Education;x
+LITERACY;High Education;x
+TB_TECH_LITERACY;High Education:;x
+LITERACY_HIGHER_THAN;High Education percentage above 即$VAL$劬%\n;x
+NOT_LITERACY_HIGHER_THAN;High Education percentage below 即$VAL$劬%\n;x
+LEDGER_COUNTRY_LITERACY;High Education;x
+BE_LITERACY;High Education:;x
+LITERACY_EFFECT;$DIRECTION$ $VALUE$ High Education\n;x
+TOPBAR_AVG_LITERACY;The average 即High Education劬 of our population is 即$AVG$劬%;x
+LEDGER_PROVINCE_AVGLIT;Avg. High Edu..;x
+REMOVE_EDU_DESC;The educational budget goes to pay the Academics as well as producing research points.;x
+EDU_DESC;The educational budget goes to pay the academics as well as producing research points.;x
+SOCIAL_DESC;The social spending budget goes towards funding your enacted social reforms. The amount of money to distribute depends on your 即country administrative efficiency劬.;x
+SOCIAL_DESC2;The social spending budget goes towards funding your enacted social reforms. The amount of money to distribute depends on your 即country administrative efficiency劬.;x
+DEFENCE_DESC;The defence spending goes towards paying your soldiers and officers.;x
+ADM_DESC;Spending on administration allows your bureaucrats to run and maintain a healthy bureaucracy, increasing your tax efficiency and reducing crime.;x
+IND_SUP_DESC;Costs of government subsidizing of factories. National cash reserves will be used to help factories buy goods needed and pay worker salaries.;x
+TARIFFS_DESC;Tariffs impose an extra cost on imported goods, with the proceeds going to the national treasury. Negative tariffs can be used to help subsidize imports for anyone in your nation.;x
+BUDGET_DIPL_DESC;Various costs/income uncured though diplomacy or peace deals.;x
+railroad;Infrastructure;x
+rail_focus;Infrastructure;x
+encourage_rail;Build Infrastructure;x
+INFRASTRUCTURE_EFFECT;$DIRECTION$ $VALUE$ level of infrastructure\n;x
+railroad_build_desc;Capitalists 即$VAL$劬% more likely to build infrastructure.;x
+PV_RAILROAD;Infrastructure;x
+CAN_INVEST_IN_RAILROADS;Allowed to invest in infrastructure;x
+RULE_BUILD_RAILWAY_INVEST;Investors can build foreign infrastructure;x
+NO_RAIL_YET;We can not encourage infrastructure building when we do not know how to build it yet.;x
+computer_factory;Computer Factory;x
+computer;Computers;x
+naval_parts_factory;Naval Parts Factory;x
+naval_parts;Naval Parts;x
+television_factory;Television Factory;x
+television;Televisions;x
+electric_gear;Electric Components;x
+electric_gear_factory;Electric Components Factory;x
+wealth_weighted_voting_desc;Only the wealthy (Engineers and above) may vote, but the rich men's votes are worth twice as much as middle-class votes.;x

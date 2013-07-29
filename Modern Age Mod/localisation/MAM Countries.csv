@@ -1,0 +1,449 @@
+MA_NAME;The New World Order;x
+MA_DESC;On November 9, 1989, The Berlin Wall fell and Germany was finally reunited. A wave of democratization swept through eastern Europe and in December 26, 1991, the Union of Soviet Socialist Republics was extinguished and from it's ashes a number of countries were born. These major events in human history define what we call as the Modern Era and a new world order is rising with the USA at it's front. Will you lead your nation to glory in this new age? Will you try to re-establish communism in the world, or will you extinguish it once and for all?;x
+SPHERE_SHARE_UNCIV;Developing nation, will make §Y$PERCENTAGE$%§! of all resources available on leaders market;x
+SPHERE_SHARE_CIV;Developed nation, will make §Y$PERCENTAGE$%§! of all resources available on leaders market (Base: §Y$BASE_PERCENTAGE$%§!);x
+LOSE_CIVILIZED_EFFECT;We shall be known as a §YDeveloping Nation§W\n;x
+TECHNOLOGYVIEW_NO_RESEARCH_UNCIV_TOOLTIP;High level technology is only available to developed nations. By developing your nation in the §Ypolitics tab§! you can aquire base technology and start researching on your own instead.;x
+IS_CIVILIZED;is developed.;x
+IS_NOT_CIVILIZED;is NOT developed.;x
+RANK_TOTAL_D;The eight countries with the highest rank are §YGreat Powers§W who have the ability to influence and control lesser nations. The next eight are §YSecondary Powers§W who have the ability to colonize, and will challenge the great powers at times. The final two ranks are §Ydeveloped§W and §Yundeveloped§W nations, who are rated depending if they are modernized or not.;x
+conquest_desc;Annex a single-state §Ycountry§W or an §Ydeveloping nation§W;x
+CIVILIZED_EFFECT;Become a §YDeveloped Nation§W\n;x
+TECH_MONTHLY_RESEARCHPOINTS_UNCIVILIZED;Developing:;x
+BUILD_CIVILIZED;Developed;x
+DIPLOMACY_CIVILIZEDNATION_STATUS;Developed Nation;x
+DIPLOMACY_UNCIVILIZEDNATION_STATUS;Developing Nation;x
+DIPLOMACY_UNCIVILIZEDNATION_APPEND;(Developing);x
+DIPLOMACY_PRIMITIVENATION_STATUS;Undeveloped Nation;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Developing;x
+UNCIV_CANT_RESEARCH;Become Developed to be able to research;x
+civ_nation;Developed Nation;x
+unciv_nation;Developing Nation;x
+demand_concession_casus_belli_desc;Force an §YUndeveloped country§W to secede territory to form a concession.;x
+establish_protectorate_casus_belli_desc;Annex an §YUndeveloped country§W by forcing them to become a protectorate of ours.;x
+POLITICS_CIVILIZE;Modernize;x
+NO_CIV_PROGRESS;We have made no progress towards full development. We need to enact military or economic reforms;x
+theocracy;Theocracy;x
+BUR;Myanmar;x
+AAB;Antigua and Barbuda;x
+AAB_ADJ;Antiguan;x
+ABK;Abkhazia;x
+ABK_ADJ;Abkhazian;x
+ABU;United Arab Emirates;x
+ABU_ADJ;Arab Emirate;x
+ADO;Andorra;x
+ADO_ADJ;Andorran;x
+AKH;Astrakhan;x
+AKH_ADJ;Astrakhanian;x
+ANG;Angola;x
+ANG_ADJ;Angolan;x
+ATJ;Indonesia;x
+ATJ_ADJ;Indonesian;x
+BAH;Bahamas;x
+BAH_ADJ;Bahamian;x
+BAR;Barbados;x
+BAR_ADJ;Barbadian;x
+BEN;Benin;x
+BEN_ADJ;Beninien;x
+BHR;Bahrain;x
+BHR_ADJ;Bahranian;x
+BLR;Belarus;x
+BLR_ADJ;Belarussian;x
+BLZ;Belize;x
+BLZ_ADJ;Belizean;x
+BNG;Bangladesh;x
+BNG_ADJ;Bangladeshi;x
+BOH;Czechia;x
+BOH_absolute_monarchy;Bohemia;x
+BOH_absolute_monarchy_ADJ;Bohemian;x
+BOH_ADJ;Czech;x
+BOH_constitutional_monarchy;Bohemia;x
+BOH_constitutional_monarchy_ADJ;Bohemian;x
+BOH_parliamentary_constitutional_monarchy;Bohemia;x
+BOH_parliamentary_constitutional_monarchy_ADJ;Bohemian;x
+BOT;Botswana;x
+BOT_ADJ;Botswanian;x
+BRI;Britanny;x
+BRI_ADJ;Breton;x
+BRN;Burundi;x
+BRN_ADJ;Burundian;x
+BUF;Burkina Faso;x
+BUF_ADJ;Burkinabé;x
+BUK;Uzbekistan;x
+BUK_ADJ;Uzbek;x
+CAL;Calafornia;x
+CAL_ADJ;Calafornian;x
+CAR;Central African Republic;x
+CAR_absolute_monarchy;Central African Empire;x
+CAR_ADJ;Central African;x
+CAR_constitutional_monarchy;Central African Empire;x
+CAR_parliamentary_constitutional_monarchy;Central African Empire;x
+CAS;Cascadia;x
+CAS_ADJ;Cascadian;x
+CAT;Catalonia;x
+CAT_ADJ;Catalonian;x
+CHA;Chad;x
+CHA_ADJ;Chadian;x
+CHC;Chechnya;x
+CHC_ADJ;Chechnyan;x
+CHE;Cherokke;x
+CHE_ADJ;Cherokke;x
+CHI_proletarian_dictatorship;People's Republic of China;x
+CIR;Circassia;x
+CIR_ADJ;Circassian;x
+CIS;Ciskei;x
+CIS_ADJ;Ciskei;x
+CMR;Cameroon;x
+CMR_ADJ;Cameroon;x
+CNG;D R Congo;x
+CNG_absolute_monarchy;Undem. Kingdom of Congo;x
+CNG_absolute_monarchy_ADJ;Kongolean;x
+CNG_ADJ;Congolese;x
+CNG_constitutional_monarchy;Undem. Kingdom of Congo;x
+CNG_constitutional_monarchy_ADJ;Kongolean;x
+CNG_parliamentary_constitutional_monarchy;Dem. Rep. of Congo;x
+CNG_parliamentary_constitutional_monarchy_ADJ;Kongolean;x
+CNG_presidential_dictatorship;Dem. Rep. of Congo;x
+CNG_single_party_fascist;Dem. Rep. of Congo;x
+CNG_single_party_fascist_ADJ;Zairean;x
+CNG_single_party_reactionary;Dem. Rep. of Congo;x
+CNG_single_party_reactionary_ADJ;Zairean;x
+COI;Cook Islands;x
+COI_ADJ;Cook;x
+COM;Comoros;x
+COM_ADJ;Comoran;x
+CPV;Cape Verde;x
+CPV_ADJ;Cape Verdian;x
+CRE;Crete;x
+CRE_ADJ;Creteian;x
+CRI;Crimea;x
+CRI_ADJ;Crimean;x
+CUR;Courland;x
+CUR_ADJ;Cour;x
+CYP;Cyprus;x
+CYP_ADJ;Cypriate;x
+CZH;Czechoslovakia;x
+CZH_ADJ;Czechoslovakian;x
+DAG;Dagestan;x
+DAG_ADJ;Dage;x
+DAI;Vietnam;x
+DAI_ADJ;Vietnamese;x
+DAR;Dafur;x
+DAR_ADJ;Dafurian;x
+DJI;Djibouti;x
+DJI_ADJ;Djiboutian;x
+DMC;Dominica;x
+DMC_ADJ;Dominican;x
+DON;Cossackia;x
+DON_ADJ;Cossack;x
+EAF;East African Federation;x
+EAF_ADJ;East African;x
+EAI;Easter Islands;x
+EAI_ADJ;Easter;x
+ENG;United Kingdom;x
+ENG_absolute_monarchy;United Kingdom;x
+ENG_constitutional_monarchy;United Kingdom;x
+ENG_democracy;United Republic;x
+ENG_parliamentary_constitutional_monarchy;United Kingdom;x
+ENG_presidential_dictatorship;United Republic;x
+ENG_single_party_communist;Workers Commonwealth;x
+ENG_single_party_fascist;British Union;x
+EQG;Equatorial Guinea;x
+EQG_ADJ;Equatorial Guinean;x
+ERI;Eritrea;x
+ERI_ADJ;Eritrea;x
+ETH;Ethiopia;x
+ETH_ADJ;Ethiopian;x
+ETS;East Turkestan;x
+ETS_ADJ;East Turkic;x
+EUS;Basque;x
+EUS_ADJ;Basque;x
+FAR;Faroe Islands;x
+FAR_ADJ;Faroese;x
+FIJ;Fiji;x
+FIJ_ADJ;Fijan;x
+FLA;Flanders;x
+FLA_ADJ;Flandereen;x
+FRM;Frankfurt au Main;x
+FRM_ADJ;Frankfurtiche;x
+GAB;Gabon;x
+GAB_ADJ;Gabonaise;x
+GAM;Gambia;x
+GAM_ADJ;Gambian;x
+GAZ;Gaza;x
+GAZ_ADJ;Gazan;x
+GEO;Georgia;x
+GEO_ADJ;Georgian;x
+GHA;Ghana;x
+GHA_ADJ;Ghanaise;x
+GRD;Grenada;x
+GRD_ADJ;Grenadian;x
+GRN;Greenland;x
+GRN_ADJ;Greenlandic;x
+GUB;Guinea-Bissau;x
+GUB_ADJ;Guinea-Bissaun;x
+GUI;Guinea;x
+GUI_ADJ;Guinean;x
+GUY;Guyana;x
+GUY_ADJ;Guyanese;x
+HAW;Hawaii;x
+HAW_ADJ;Hawaiian;x
+HKG;Hong Kong;x
+HKG_ADJ;Hong Konger;x
+ION;Ionian Islands;x
+ION_ADJ;Ionian;x
+IRQ;Iraq;x
+IRQ_ADJ;Iraqi;x
+IVC;Côte d'Ivoire;x
+IVC_ADJ;Ivorian;x
+JAM;Jamacia;x
+JAM_ADJ;Jamacian;x
+JOH;Malaysia;x
+JOH_ADJ;Malaysian;x
+JOR;Jordan;x
+JOR_ADJ;Jordanian;x
+KAZ;Kazakhstan;x
+KAZ_ADJ;Kazakh;x
+KEN;Kenya;x
+KEN_ADJ;Kenyan;x
+KHI;Turkmenistan;x
+KHI_ADJ;Turkmen;x
+KIR;Kiribati;x
+KIR_ADJ;Kiribatian;x
+KMK;Kalmykia;x
+KMK_ADJ;Kalmykian;x
+KOK;Kyrgyzstan;x
+KOK_ADJ;Kyrgyz;x
+KOR;Korea;x
+KOR_ADJ;Korean;x
+KOS;Kosovo;x
+KOS_ADJ;Kosovon;x
+KRL;Karelia;x
+KRL_ADJ;Karelian;x
+KUR;Kurdistan;x
+KUR_ADJ;Kurdish;x
+KUW;Kuwait;x
+KUW_ADJ;Kuwaiti;x
+LEB;Lebanon;x
+LEB_ADJ;Lebanon;x
+LES;Lesotho;x
+LES_ADJ;Methoso;x
+LIE;Liechtenstein;x
+LIE_ADJ;Liechtensteiner;x
+LIV;Livonia;x
+LIV_ADJ;Livonian;x
+LOM;Lombardia;x
+LOM_ADJ;Lombardian;x
+LUA;Laos;x
+LUA_ADJ;Lao;x
+LUB;Lubeck;x
+LUB_ADJ;Lubeckian;x
+MAC;Macedonia;x
+MAC_ADJ;Macedonian;x
+MAD;Madagascar;x
+MAD_ADJ;Madagascan;x
+MAL;Malta;x
+MAL_ADJ;Maltese;x
+MAN;Manhattan Commune;x
+MAN_ADJ;Manhattan;x
+MAR;Marshall Islands;x
+MAR_ADJ;Marshall;x
+MAU;Mauritania;x
+MAU_ADJ;Mauritanian;x
+MCA;Macau;x
+MCA_ADJ;Macanese;x
+MCK;Machukuo;x
+MCK_ADJ;Machukuon;x
+MIC;Micronesia;x
+MIC_ADJ;Micronesian;x
+MLD;Maldives;x
+MLD_ADJ;Maldive;x
+MLI;Mali;x
+MLI_ADJ;Malian;x
+MLW;Malawi;x
+MLW_ADJ;Malawian;x
+MOA;Monaco;x
+MOA_ADJ;Monegasque;x
+MOL;Moldova;x
+MOL;Moldovan;x
+MOZ;Mozambique;x
+MOZ_ADJ;Mozambican;x
+MRT;Mauritius;x
+MRT_ADJ;Mauritian;x
+MTC;Metis Confederacy;x
+MTC_ADJ;Metisean;x
+MUG;Mughalistan;x
+MUG_ADJ;Mughal;x
+NAK;Nagorno-Karabakh;x
+NAK_ADJ;Nagorno-Karabakh;x
+NAL;Natalia;x
+NAL_ADJ;Natalian;x
+NAM;Namibia;x
+NAM_ADJ;Namibian;x
+NAU;Nauru;x
+NAU_ADJ;Nauruan;x
+NCY;North Cyprus;x
+NCY_ADJ;Turkish Cypriot;x
+NIG;Niger;x
+NIG_ADJ;Nigerien;x
+NIU;Niue;x
+NIU_ADJ;Niue;x
+NKO;North Korea;x
+NKO_ADJ;North Korean;x
+NOS;North Ossetia;x
+NOS_ADJ;North Ossetian;x
+NYC;Northern Cyprus;x
+NYC_ADJ;Northern Cypriate;x
+NZL;New Zealand;x
+NZL_ADJ;New Zealander;x
+OMA;Oman;x
+OMA_ADJ;Omani;x
+PAJ;Panjab;x
+PAJ_ADJ,Panjabi;;x
+PAK;Pakistan;x
+PAK_ADJ;Pakistani;x
+PAL;Palestine;x
+PAL_ADJ;Palestinian;x
+PAR;Padania;x
+PAR_ADJ;Padanian;x
+PAU;Palau;x
+PAU_ADJ;Palauan;x
+PER;Iran;x
+PER_ADJ;Iranian;x
+PNM;Panama;x
+PNM_ADJ;Panamanian;x
+PPN;Papua New Guinea;x
+PPN_ADJ;Papaun;x
+PPS;Philippines;x
+PPS_ADJ;Philippine;x
+QAT;Qatar;x
+QAT_ADJ;Qatari;x
+QUE;Québec;x
+QUE_ADJ;Québecoise;x
+RHO;Rhodesia;x
+RHO_ADJ;Rhodesian;x
+ROC;Congo;x
+ROC_ADJ;Congolese;x
+RUT;Ruthenia;x
+RUT_ADJ;Ruethenian;x
+RWA;Rwanda;x
+RWA_ADJ;Rwandan;x
+RYK;Ryukyu;x
+RYK_ADJ;Ryukyuan;x
+SAA;Saudi Arabia;x
+SAA_ADJ;Saudi Arabian;x
+SAM;Samoa;x
+SAM_ADJ;Samoan;x
+SCO;Scotland;x
+SCO_ADJ;Scottish;x
+SEN;Senegal;x
+SEN_ADJ;Senegalese;x
+SEY;Seychelles;x
+SEY_ADJ;Seychellean;x
+SIA;Thailand;x
+SIA_ADJ;Thai;x
+SIE;Siebenburgen;x
+SIE_ADJ;Siebenburgen;x
+SKN;St Kits and Nevis;x
+SKN_ADJ;Kittitian;x
+SKO;South Korea;x
+SKO_ADJ;South Korean;x
+SLV;Slovakia;x
+SLV_ADJ;Slovakian;x
+SML;Somaliland;x
+SML_ADJ;Somali;x
+SMR;San Marino;x
+SMR_ADJ;Sammarinese;x
+SNG;Singapore;x
+SNG_ADJ;Singaporean;x
+SOK;Nigeria;x
+SOK_ADJ;Nigerian;x
+SOL;Soloman Islands;x
+SOL_ADJ;Soloman Islands;x
+SOM;Somalia;x
+SOM_ADJ;Somalia;x
+SOT;South Ossetia;x
+SOT_ADJ;South Ossetian;x
+SRL;Sri Lanka;x
+SRL_ADJ;Sri Lankan;x
+SRN;Sierra Leone;x
+SRN_ADJ;Sierra Leonean;x
+SSU;South Sudan;x
+SSU_ADJ;South Sudanese;x
+STL;St Lucia;x
+STL_ADJ;Lucian;x
+STP;São Tomé and Príncipe;x
+STP_ADJ;São Toméan;x
+SUD;Sudan;x
+SUD_ADJ;Sudanese;x
+SUR;Suriname;x
+SUR_ADJ;Surinamese;x
+SVG;St Vincent and Grenadines;x
+SVG_ADJ;Vicentian;x
+SWA;Swaziland;x
+SWA_ADJ;Swazi;x
+SYR;Syria;x
+SYR_ADJ;Syrian;x
+TAI;Taiwan;x
+TAI_ADJ;Taiwan;x
+TAI_democracy;Republic of China;x
+TAJ;Tajikistan;x
+TAJ_ADJ;Tajik;x
+TAN;Tanzania;x
+TAN_ADJ;Tazanian;x
+TAR;Tatarstan;x
+TAR_ADJ;Tatar;x
+TAT;Trinidad and Tobago;x
+TAT_ADJ;Trinidadian;x
+TKR;Turkestan;x
+TKR_ADJ;Turkic;x
+TNT;Tannu Tuva;x
+TNT_ADJ;Tannu Tuvan;x
+TOG;Togo;x
+TOG_ADJ;Togo;x
+TON;Tonga;x
+TON_ADJ;Tongan;x
+TRE;Trieste;x
+TRE_ADJ;Triesten;x
+TRI;Libya;x
+TRI_ADJ;Libyan;x
+TRK;Transkei;x
+TRK_ADJ;Transkei;x
+TUN;Tunisia;x
+TUN_ADJ;Tunisian;x
+TUR;Turkey;x
+TUR_absolute_monarchy;Ottoman Empire;x
+TUR_absolute_monarchy_ADJ;Ottoman;x
+TUR_ADJ;Turkish;x
+TUR_constitutional_monarchy;Ottoman Empire;x
+TUR_constitutional_monarchy_ADJ;Ottoman;x
+TUR_parliamentary_constitutional_monarchy;Ottoman;x
+TUR_parliamentary_constitutional_monarchy_ADJ;Ottoman;x
+TUV;Tuvalu;x
+TUV_ADJ;Tuvalun;x
+UGA;Uganda;x
+UGA_ADJ;Ugandan;x
+USA;United States;x
+USA_absolute_monarchy;American Empire;x
+USA_constitutional_monarchy;American Empire;x
+USA_democracy;The United States of America;x
+USA_parliamentary_constitutional_monarchy;American Empire;x
+VAN;Vanuatu;x
+VAN_ADJ;Vanuatuan;x
+WLL;Wallonia;x
+WLL_ADJ;Wallonian;x
+WSA;Western Sahara;x
+WSA_ADJ;Westerb Saharan;x
+YAK;Sakha Republic;x
+YAK_absolute_monarchy;Kingdom of Yakutia;x
+YAK_absolute_monarchy_ADJ;Yakutian;x
+YAK_ADJ;Sakha;x
+YAK_constitutional_monarchy;Kingdom of Yakutia;x
+YAK_constitutional_monarchy_ADJ;Yakutian;x
+YAK_parliamentary_constitutional_monarchy;Kingdom of Yakutia;x
+YAK_parliamentary_constitutional_monarchy_ADJ;Yakutian;x
+YAK_single_party_communist;Sakha People's Republic;x
+ZAM;Zambia;x
+ZAM_ADJ;Zambia;x
+ZIM;Zimbabwe;x
+ZIM_ADJ;Zimbabwe;x

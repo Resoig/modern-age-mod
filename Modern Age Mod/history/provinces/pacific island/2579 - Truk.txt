@@ -1,0 +1,5 @@
+owner = MIC
+controller = MIC
+add_core = MIC
+trade_goods = fish
+life_rating = 15
