@@ -54,3 +54,19 @@ substate = {
 	start_date = 2012.1.1
 	end_date = 3000.1.1
 	}
+
+# South Africa-Ciskei
+vassal = {
+	first = SAF
+	second = CIS
+	start_date = 1972.1.1
+	end_date = 2500.10.30
+}
+
+# South Africa-Transkei
+vassal = {
+	first = SAF
+	second = TRK
+	start_date = 1976.1.1
+	end_date = 2500.10.30
+}

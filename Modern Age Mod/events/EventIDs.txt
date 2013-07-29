@@ -51,5 +51,5 @@
 # On Action Events -- 70000
 # CB generation -- 90000
 ### MAM START ###
-# None yet
+# Apartheid -- 100000
 ### MAM END ###

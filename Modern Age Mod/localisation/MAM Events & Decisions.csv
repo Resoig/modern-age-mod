@@ -1,15 +1,21 @@
-#Events;;;;x
-#Add Events;;;;x
-#USAFlavor;;;;x
-EVTNAME44200;The Panama Canal;;;x
-EVTDESC44200;In the Torrijos-Carter Treaties signed in 1977, we compromised to give the Panama canal back to Panama, at the begining of year 2000.\nShall we keep our word, and lose the important state, or not do so and lose prestige in the eyes of the world?;;;x
-EVTOPTA44200;Give it back;;;x
-EVTOPTB44200;We shall keep it;;;x
-#Adapted Events;;;;x
-EVTDESC15140;A committee of $PROVINCECULTURE$ businessmen and traders from $PROVINCENAME$ have approached the government in $CAPITAL$, wishing to lodge a formal complaint with the open discrimination they face in competition for government contracts. Our government currently pursues a favorization policy -- preferring $COUNTRY_ADJ$ contractors wherever possible -- and this is causing discontent in the $PROVINCECULTURE$ provinces. The committee represents equally the interests of the small business owners and capitalist classes of the province, and we could try to sow discontent among them.;Un comité d'hommes d'affaires $PROVINCECULTURE$ et des commerçants de $PROVINCENAME$ ont approché le gouvernement à $CAPITAL$, souhaitant déposer une plainte contre la discrimination à laquelle ils sont confrontés dans l'accès aux marchés publics. Notre gouvernement poursuit une politique de favorisation des entrepreneurs $COUNTRY_ADJ$, chaque fois que possible, et cela est à l'origine du mécontentement des provinces $PROVINCECULTURE$. Le comité représente également les intérêts des capitalistes et des propriétaires de petites entreprises de la province, et on pourrait semer le mécontentement parmi eux.;Ein Komitee $PROVINCECULTURE$er Geschäftsleute und Händler aus $PROVINCENAME$ haben sich mit einer Beschwerde über die offene Diskriminierung, die sie bei der Ausschreibung staatlicher Aufträge erfahren, an die Regierung in $CAPITAL$ gewandt. Unsere Regierung fährt derzeit eine Günstlingspolitik -- und bevorzugt wenn möglich $COUNTRY_ADJ$e Auftragnehmer -- und dies führt in den $PROVINCECULTURE$en Provinzen zu Unzufriedenheit. Das Komitee repräsentiert gleichermaßen die Interessen der Kleinunternehmer und Kapitalisten der Provinz, und wir könnten versuchen, zwischen ihnen Zwietracht zu säen.;x
-EVTOPTC15140;Favor the small business owners;Favoriser les propriétaires de petites entreprises;Kleinunternehmer bevorzugen.;x
-#Decisions;;;;x
-#Add Decisions;;;;x
-form_usca_title;Form The United States of Central America;;;x
-form_usca_desc;As the dominant power in what was once the USCA, we're in the position to form it once again under our leadership. May our nation bathe in glory!;;;x
-#Adapted Decisions;;;;x
+#Events;;x
+#Add Events;;x
+EVTNAME100000;Apartheid;x
+EVTDESC100000;"Apartheid is the name for the policies by which the white minority of South Africa, represented by the National Party, segregated indigenous black Africans and other non-white populations from white Afrikaners. Non-white South Africans were stripped of South African citizenship and made citizens of the ten ""bantustans"", meant to be tribal homelands for black Africans. Several of these bantustans, including Ciskei and Transkei, were proclaimed by South Africa to be independent, though they were not recognized internationally.";x
+EVTOPTA100000;History will not look kindly upon this;x
+EVTNAME100001;The End of Apartheid;x
+EVTDESC100001;The electoral victory of a coalition of anti-Apartheid parties has resulted in the reversal of the National Party's discriminatory policies and the acceptance of South Africa's black African majority as a vital part of South Africa's societal fabric. In addition, tribal devolution has been reduced, resulting in the reintegration of the Ciskei and Transkei bantustans into South Africa.;x
+EVTOPTA100001;A great step forward for South Africa;x
+#USAFlavor;;x
+EVTNAME44200;The Panama Canal;x
+EVTDESC44200;In the Torrijos-Carter Treaties signed in 1977, we compromised to give the Panama canal back to Panama, at the begining of year 2000.\nShall we keep our word, and lose the important state, or not do so and lose prestige in the eyes of the world?;x
+EVTOPTA44200;Give it back;x
+EVTOPTB44200;We shall keep it;x
+#Adapted Events;;x
+EVTDESC15140;A committee of $PROVINCECULTURE$ businessmen and traders from $PROVINCENAME$ have approached the government in $CAPITAL$, wishing to lodge a formal complaint with the open discrimination they face in competition for government contracts. Our government currently pursues a favorization policy -- preferring $COUNTRY_ADJ$ contractors wherever possible -- and this is causing discontent in the $PROVINCECULTURE$ provinces. The committee represents equally the interests of the small business owners and capitalist classes of the province, and we could try to sow discontent among them.;x
+EVTOPTC15140;Favor the small business owners;x
+#Decisions;;x
+#Add Decisions;;x
+form_usca_title;Form The United States of Central America;x
+form_usca_desc;As the dominant power in what was once the USCA, we're in the position to form it once again under our leadership. May our nation bathe in glory!;x
+#Adapted Decisions;;x

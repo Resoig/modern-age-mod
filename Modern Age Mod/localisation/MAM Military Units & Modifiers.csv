@@ -20,3 +20,6 @@ tank;Mech;x
 LEDGER_ARMY_INFANTRY;Infantry;x
 LEDGER_ARMY_CAVALRY;Tanks;x
 LEDGER_ARMY_ARTILLERY;Aircraft;x
+#Modifiers;;x
+apartheid;Apartheid;x
+apartheid_desc;Apartheid is the segregation of the black African population from the white Afrikaner minority.;x
