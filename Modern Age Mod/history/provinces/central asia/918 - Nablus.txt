@@ -1,6 +1,6 @@
-owner = ISR
-controller = ISR
+owner = PAL
+controller = PAL
 add_core = PAL
-add_core = ISR
+#add_core = ISR
 trade_goods = fruit
 life_rating = 35
