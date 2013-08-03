@@ -1,4 +1,4 @@
 modern-age-mod
 ==============
 
-Modern Age Mod for Paradox Entertainment's game Victoria II
+Modern Age Mod for Paradox Interactive's game Victoria II
