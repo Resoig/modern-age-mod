@@ -5,23 +5,6 @@ vassal = {
 	start_date = 1814.10.1
 	end_date = 2500.10.30
 }
-
-# Denmark-Faroe Islands
-vassal = {
-	first = DEN
-	second = FAR
-	start_date = 1815.1.1
-	end_date = 2500.10.30
-}
-
-# Denmark-Greenland
-vassal = {
-	first = DEN
-	second = GRN
-	start_date = 1815.1.1
-	end_date = 2500.10.30
-}
-
 # Armenia-NAK
 vassal = {
 	first = ARM

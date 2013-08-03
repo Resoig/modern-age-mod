@@ -2,7 +2,6 @@ owner = SKO
 controller = SKO
 add_core = KOR
 add_core = SKO
-add_core = NKO
 trade_goods = grain
 life_rating = 35
 naval_base = 1

@@ -1,6 +1,6 @@
 owner = LIT
 controller = LIT
 add_core = LIT
-add_core = BLT
+add_core = UBD
 trade_goods = fish
 life_rating = 35

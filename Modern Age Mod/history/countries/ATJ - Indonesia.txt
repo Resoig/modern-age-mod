@@ -1,4 +1,4 @@
-capital = 1405
+capital = 1413
 primary_culture = javan
 culture = malay
 culture = moluccan

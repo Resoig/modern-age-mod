@@ -1,4 +1,4 @@
-capital = 625
+capital = 794
 primary_culture = serb
 culture = croat
 culture = slovene

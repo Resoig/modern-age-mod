@@ -52,4 +52,5 @@
 # CB generation -- 90000
 ### MAM START ###
 # Apartheid -- 100000
+# Koreas -- 100100
 ### MAM END ###

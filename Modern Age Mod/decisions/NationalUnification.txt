@@ -469,7 +469,7 @@ political_decisions = {
 	form_usca = {
 		potential = {
 			OR = {
-				tag = BEL
+				tag = BLZ
 				tag = COS
 				tag = ELS
 				tag = HON
@@ -508,6 +508,51 @@ political_decisions = {
 			any_country = {
 				limit = {
 					any_core = {is_core = UCA}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_eaf = { #East African Federation
+		potential = {
+			OR = {
+				tag = TAN
+				tag = RWA
+				tag = UGA
+				tag = BRN
+				tag = KEN
+			}
+			NOT = { exists = EAF }
+			NOT = { has_global_flag = eaf_formed }
+		}
+		allow = {
+			EAF = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_global_flag = eaf_formed
+			prestige = 20
+			all_core = { add_core = EAF }
+			change_tag = EAF
+			any_country = {
+				limit = {
+					any_core = {is_core = EAF}
 					OR = {
 						in_sphere = THIS
 						vassal_of = THIS

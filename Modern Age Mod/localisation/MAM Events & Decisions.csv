@@ -6,6 +6,9 @@ EVTOPTA100000;History will not look kindly upon this;x
 EVTNAME100001;The End of Apartheid;x
 EVTDESC100001;The electoral victory of a coalition of anti-Apartheid parties has resulted in the reversal of the National Party's discriminatory policies and the acceptance of South Africa's black African majority as a vital part of South Africa's societal fabric. In addition, tribal devolution has been reduced, resulting in the reintegration of the Ciskei and Transkei bantustans into South Africa.;x
 EVTOPTA100001;A great step forward for South Africa;x
+EVTNAME100100;Koreas Reunited;x
+EVTDESC100100;Since both Koreas now share a common form of government, to reunite them is only logical;x
+EVTOPTA100100;Indeed;x
 #USAFlavor;;x
 EVTNAME44200;The Panama Canal;x
 EVTDESC44200;In the Torrijos-Carter Treaties signed in 1977, we compromised to give the Panama canal back to Panama, at the begining of year 2000.\nShall we keep our word, and lose the important state, or not do so and lose prestige in the eyes of the world?;x
@@ -16,6 +19,11 @@ EVTDESC15140;A committee of $PROVINCECULTURE$ businessmen and traders from $PROV
 EVTOPTC15140;Favor the small business owners;x
 #Decisions;;x
 #Add Decisions;;x
+#Unifications;;x
+form_korea_title;Unite Korea;x
+form_korea_desc;By securing the all of the lands in Korea under our leadership, we've decided to reform it. May our nation be glorious!;x
 form_usca_title;Form The United States of Central America;x
 form_usca_desc;As the dominant power in what was once the USCA, we're in the position to form it once again under our leadership. May our nation bathe in glory!;x
+form_eaf_title;Form the East African Federation;x
+form_eaf_desc;Under our guidance, Eastern Africa stands united. We shall, thus, expand on the strength of its bonds and establish a new nation, the East African Federation;x
 #Adapted Decisions;;x
